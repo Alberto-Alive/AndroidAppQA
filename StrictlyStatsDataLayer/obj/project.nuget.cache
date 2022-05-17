@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "cjcBElr8h9Lw1w7eWcGanxQ9t01ovPQCooTw+RAcKQyYps7J6+mzewLFnCYtYAHTPlD+V19ohvzvgRQfK705uQ==",
+  "success": true,
+  "projectFilePath": "D:\\AbcUni\\WebApp Mobile Exam\\StrictlyStatsStarter\\StrictlyStatsDataLayer\\StrictlyStatsDataLayer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\P-o1\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
+    "C:\\Users\\P-o1\\.nuget\\packages\\sqlite-net\\1.6.292\\sqlite-net.1.6.292.nupkg.sha512",
+    "C:\\Users\\P-o1\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
+    "C:\\Users\\P-o1\\.nuget\\packages\\sqlitenetextensions\\2.1.0\\sqlitenetextensions.2.1.0.nupkg.sha512",
+    "C:\\Users\\P-o1\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
+    "C:\\Users\\P-o1\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
+    "C:\\Users\\P-o1\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3.android\\2.0.3\\sqlitepclraw.lib.e_sqlite3.android.2.0.3.nupkg.sha512",
+    "C:\\Users\\P-o1\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.0.3\\sqlitepclraw.provider.e_sqlite3.2.0.3.nupkg.sha512",
+    "C:\\Users\\P-o1\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\P-o1\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\P-o1\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+  ],
+  "logs": []
+}

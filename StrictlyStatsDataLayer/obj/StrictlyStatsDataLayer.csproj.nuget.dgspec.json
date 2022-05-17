@@ -1,0 +1,54 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\AbcUni\\WebApp Mobile Exam\\StrictlyStatsStarter\\StrictlyStatsDataLayer\\StrictlyStatsDataLayer.csproj": {}
+  },
+  "projects": {
+    "D:\\AbcUni\\WebApp Mobile Exam\\StrictlyStatsStarter\\StrictlyStatsDataLayer\\StrictlyStatsDataLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\AbcUni\\WebApp Mobile Exam\\StrictlyStatsStarter\\StrictlyStatsDataLayer\\StrictlyStatsDataLayer.csproj",
+        "projectName": "StrictlyStatsDataLayer",
+        "projectPath": "D:\\AbcUni\\WebApp Mobile Exam\\StrictlyStatsStarter\\StrictlyStatsDataLayer\\StrictlyStatsDataLayer.csproj",
+        "packagesPath": "C:\\Users\\P-o1\\.nuget\\packages\\",
+        "outputPath": "D:\\AbcUni\\WebApp Mobile Exam\\StrictlyStatsStarter\\StrictlyStatsDataLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\P-o1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "SQLiteNetExtensions": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "sqlite-net": {
+              "target": "Package",
+              "version": "[1.6.292, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.7.335, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}
