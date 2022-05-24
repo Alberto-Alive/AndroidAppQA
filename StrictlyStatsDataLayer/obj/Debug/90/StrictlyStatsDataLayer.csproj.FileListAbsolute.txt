@@ -26,3 +26,31 @@ D:\AbcUni\WebApp Mobile Exam\StrictlyStatsStarter\StrictlyStatsDataLayer\obj\Deb
 D:\AbcUni\WebApp Mobile Exam\StrictlyStatsStarter\StrictlyStatsDataLayer\obj\Debug\90\stamp\_CleanIntermediateIfNeeded.stamp
 D:\AbcUni\WebApp Mobile Exam\StrictlyStatsStarter\StrictlyStatsDataLayer\obj\Debug\90\stamp\_ConvertResourcesCases.stamp
 D:\AbcUni\WebApp Mobile Exam\StrictlyStatsStarter\StrictlyStatsDataLayer\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsDataLayer\bin\Debug\StrictlyStatsDataLayer.dll
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsDataLayer\bin\Debug\StrictlyStatsDataLayer.pdb
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsDataLayer\bin\Debug\StrictlyStatsDataLayer.StrictlyStatsDataLayer.apk
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsDataLayer\bin\Debug\StrictlyStatsDataLayer.StrictlyStatsDataLayer.aab
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsDataLayer\bin\Debug\StrictlyStatsDataLayer.StrictlyStatsDataLayer-Signed.aab
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsDataLayer\bin\Debug\StrictlyStatsDataLayer.StrictlyStatsDataLayer-Signed.apk
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsDataLayer\bin\Debug\StrictlyStatsDataLayer.StrictlyStatsDataLayer-Signed.apk.idsig
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsDataLayer\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsDataLayer\obj\Debug\90\build.props
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsDataLayer\obj\Debug\90\adb.props
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsDataLayer\obj\Debug\90\StrictlyStatsDataLayer.csproj.AssemblyReference.cache
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsDataLayer\obj\Debug\90\stamp\_BuildLibraryImportsCache.stamp
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsDataLayer\obj\Debug\90\res.flag
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsDataLayer\obj\Debug\90\R.txt
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsDataLayer\obj\Debug\90\R.cs.flag
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsDataLayer\obj\Debug\90\__AndroidLibraryProjects__.zip
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsDataLayer\obj\Debug\90\StrictlyStatsDataLayer.csproj.CoreCompileInputs.cache
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsDataLayer\obj\Debug\90\StrictlyStatsDataLayer.dll
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsDataLayer\obj\Debug\90\StrictlyStatsDataLayer.pdb
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsDataLayer\obj\Debug\90\android\bin\StrictlyStatsDataLayer.StrictlyStatsDataLayer.apk
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsDataLayer\obj\Debug\90\android\bin\base.zip
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsDataLayer\obj\Debug\90\android\bin\StrictlyStatsDataLayer.StrictlyStatsDataLayer.aab
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsDataLayer\obj\Debug\90\android\bin\StrictlyStatsDataLayer.StrictlyStatsDataLayer.apks
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsDataLayer\obj\Debug\90\res\values\strings.xml
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsDataLayer\obj\Debug\90\uploadflags.txt
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsDataLayer\obj\Debug\90\stamp\_CleanIntermediateIfNeeded.stamp
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsDataLayer\obj\Debug\90\stamp\_ConvertResourcesCases.stamp
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsDataLayer\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp

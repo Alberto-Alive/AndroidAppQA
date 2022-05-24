@@ -5,7 +5,7 @@
     <DefaultDevice>pixel_5_-_api_28</DefaultDevice>
     <AndroidDesignerPreferredTheme>AppTheme</AndroidDesignerPreferredTheme>
     <AndroidDesignerPreferredDevice>pixel_2</AndroidDesignerPreferredDevice>
-    <ProjectView>ShowAllFiles</ProjectView>
+    <ProjectView>ProjectFiles</ProjectView>
     <SelectedPlatformGroup>Emulator</SelectedPlatformGroup>
     <ActiveDebugProfile>pixel_5_-_api_28</ActiveDebugProfile>
   </PropertyGroup>

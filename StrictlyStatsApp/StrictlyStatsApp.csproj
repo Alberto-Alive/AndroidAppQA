@@ -67,13 +67,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ActivityType.cs" />
-    <Compile Include="CoupleScoresBreakdownActivity.cs" />
+    <Compile Include="CoupleScoresBreakdownActivitybckp.cs" />
+    <Compile Include="CoupleScoresBreakdownDetailsActivity.cs" />
     <Compile Include="InstructionDetailActivity.cs" />
     <Compile Include="Instructions.cs" />
+    <Compile Include="CoupleScoresBreakdownAdapter.cs" />
     <Compile Include="InstructionsAdapter.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="RankCouplesActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
+    <Compile Include="CoupleScoresBreakdownActivity.cs" />
     <Compile Include="SelectCoupleActivity.cs" />
     <Compile Include="EnterScoresActivity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -168,6 +171,18 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\InstructionDetail.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\CoupleScoresBreakdown.axml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\CoupleScoresBreakdownDetails.xml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

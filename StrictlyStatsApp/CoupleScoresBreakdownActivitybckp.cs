@@ -15,7 +15,7 @@ using StrictlyStatsDataLayer.Models;
 namespace StrictlyStats
 {
     [Activity(Label = "Home")]
-    public class CoupleScoresBreakdownActivity : Activity
+    public class CoupleScoresBreakdownActivitybckp : Activity
     {
         IStrictlyStatsUOW uow = Global.UOW;
 

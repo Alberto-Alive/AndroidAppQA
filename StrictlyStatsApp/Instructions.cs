@@ -23,7 +23,7 @@ namespace StrictlyStats
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-
+            
             SetContentView(Resource.Layout.Instructions);
             ListView lstVwInstructions = FindViewById<ListView>(Resource.Id.lstVwInstructions);
 

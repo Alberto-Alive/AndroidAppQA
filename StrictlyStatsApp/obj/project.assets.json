@@ -1732,11 +1732,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\AbcUni\\WebApp Mobile Exam\\StrictlyStatsStarter\\StrictlyStatsApp\\StrictlyStatsApp.csproj",
+      "projectUniqueName": "D:\\AbcUni\\WebApp-Mobile-Exam\\StrictlyStatsStarter\\StrictlyStatsApp\\StrictlyStatsApp.csproj",
       "projectName": "StrictlyStats",
-      "projectPath": "D:\\AbcUni\\WebApp Mobile Exam\\StrictlyStatsStarter\\StrictlyStatsApp\\StrictlyStatsApp.csproj",
+      "projectPath": "D:\\AbcUni\\WebApp-Mobile-Exam\\StrictlyStatsStarter\\StrictlyStatsApp\\StrictlyStatsApp.csproj",
       "packagesPath": "C:\\Users\\P-o1\\.nuget\\packages\\",
-      "outputPath": "D:\\AbcUni\\WebApp Mobile Exam\\StrictlyStatsStarter\\StrictlyStatsApp\\obj\\",
+      "outputPath": "D:\\AbcUni\\WebApp-Mobile-Exam\\StrictlyStatsStarter\\StrictlyStatsApp\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1753,8 +1753,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "D:\\AbcUni\\WebApp Mobile Exam\\StrictlyStatsStarter\\StrictlyStatsDataLayer\\StrictlyStatsDataLayer.csproj": {
-              "projectPath": "D:\\AbcUni\\WebApp Mobile Exam\\StrictlyStatsStarter\\StrictlyStatsDataLayer\\StrictlyStatsDataLayer.csproj"
+            "D:\\AbcUni\\WebApp-Mobile-Exam\\StrictlyStatsStarter\\StrictlyStatsDataLayer\\StrictlyStatsDataLayer.csproj": {
+              "projectPath": "D:\\AbcUni\\WebApp-Mobile-Exam\\StrictlyStatsStarter\\StrictlyStatsDataLayer\\StrictlyStatsDataLayer.csproj"
             }
           }
         }
