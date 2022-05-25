@@ -33,6 +33,7 @@ LinearLayout;obj\Debug\90\res\layout\selectweeknumber.xml
 LinearLayout;obj\Debug\90\res\layout\statsfortheweek.xml
 LinearLayout;obj\Debug\90\res\layout\winner.xml
 ListView;obj\Debug\90\res\layout\couplescoresbreakdown.xml
+ListView;obj\Debug\90\res\layout\couplescoresbreakdowndetails.xml
 ListView;obj\Debug\90\res\layout\instructions.xml
 ListView;obj\Debug\90\res\layout\instructionss.xml
 ListView;obj\Debug\90\res\layout\rankedcouples.xml

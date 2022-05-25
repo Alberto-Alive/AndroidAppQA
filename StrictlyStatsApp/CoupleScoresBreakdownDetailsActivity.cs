@@ -21,16 +21,16 @@ namespace StrictlyStats
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            SetContentView(Resource.Layout.InstructionDetail);
-            int instructionID = Intent.GetIntExtra("InstructionID", -1);
+            SetContentView(Resource.Layout.CoupleScoresBreakdownDetails);
+            int coupleID = Intent.GetIntExtra("CoupleID", -1);
 
-            Instruction instruction = uow.Instructions.GetById(instructionID);
+            Couple couple = uow.Couples.GetById(coupleID);
 
             TextView txtHeading = FindViewById<TextView>(Resource.Id.txtHeading);
             TextView txtDetail = FindViewById<TextView>(Resource.Id.txtDetail);
 
-            txtHeading.Text = instruction.InstructionHeading;
-            txtDetail.Text = instruction.InstructionDetail;
+            txtHeading.Text = couple.ToString();
+            txtDetail.Text = couple.ProfessionalLastName;
         }
     }
 }
