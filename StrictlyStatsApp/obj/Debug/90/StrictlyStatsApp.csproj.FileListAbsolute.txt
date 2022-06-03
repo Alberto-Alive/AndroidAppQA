@@ -608,3 +608,4 @@ D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\android\src\crc64614377a9225db125\CoupleScoresBreakdownDetailsAdapter.java

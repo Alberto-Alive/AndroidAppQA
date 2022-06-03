@@ -7,6 +7,7 @@ using Android.App;
 using Android.Content;
 using Android.OS;
 using Android.Runtime;
+using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
 using StrictlyStatsDataLayer;
@@ -14,8 +15,9 @@ using StrictlyStatsDataLayer.Models;
 
 namespace StrictlyStats
 {
-    [Activity(Label = "Home")]
-    public class RankCouplesActivity : Activity
+    //[Activity(Label = "Home")]
+    [Activity(Label = "Rank couples", Theme = "@style/AppTheme")]
+    public class RankCouplesActivity : AppCompatActivity
     {
         IStrictlyStatsUOW uow = Global.UOW;
 
@@ -39,7 +41,7 @@ namespace StrictlyStats
                 else
                     message = "No scores have been added to the database";
 
-                var dlgAlert = (new AlertDialog.Builder(this)).Create();
+                var dlgAlert = (new Android.App.AlertDialog.Builder(this)).Create();
                 dlgAlert.SetMessage(message);
                 dlgAlert.SetTitle("No Scores");
                 dlgAlert.SetButton("OK", (s, e) => { Finish(); });

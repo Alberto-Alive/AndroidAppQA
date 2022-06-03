@@ -11,11 +11,13 @@ using Android.Views;
 using Android.Content;
 using StrictlyStatsDataLayer;
 using StrictlyStatsDataLayer.Models;
+using Android.Support.V7.App;
 
 namespace StrictlyStats
 {
-    [Activity(Label = "Instructions")]
-    public class Instructions : Activity
+    //[Activity(Label = "Instructions")]
+    [Activity(Label = "Instructions", Theme = "@style/AppTheme")]
+    public class Instructions : AppCompatActivity
     {
         IStrictlyStatsUOW uow = Global.UOW;
         List<Instruction> instructions;

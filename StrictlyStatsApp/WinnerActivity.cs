@@ -7,6 +7,7 @@ using Android.App;
 using Android.Content;
 using Android.OS;
 using Android.Runtime;
+using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
 using StrictlyStatsDataLayer;
@@ -14,8 +15,9 @@ using StrictlyStatsDataLayer.Models;
 
 namespace StrictlyStats
 {
-    [Activity(Label = "We Have a Winner!")]
-    public class WinnerActivity : Activity
+    //[Activity(Label = "We Have a Winner!")]
+    [Activity(Label = "We have a winner!", Theme = "@style/AppTheme")]
+    public class WinnerActivity : AppCompatActivity
     {
         IStrictlyStatsUOW uow = Global.UOW;
 

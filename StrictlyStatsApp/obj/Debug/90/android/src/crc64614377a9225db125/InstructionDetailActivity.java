@@ -2,7 +2,7 @@ package crc64614377a9225db125;
 
 
 public class InstructionDetailActivity
-	extends android.app.Activity
+	extends android.support.v7.app.AppCompatActivity
 	implements
 		mono.android.IGCUserPeer
 {

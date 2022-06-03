@@ -7,14 +7,16 @@ using Android.App;
 using Android.Content;
 using Android.OS;
 using Android.Runtime;
+using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
 using StrictlyStatsDataLayer;
 
 namespace StrictlyStats
 {
-    [Activity(Label = "Select Week Number")]
-    public class SelectWeekNumberActivity : Activity
+    //[Activity(Label = "Select Week Number")]
+    [Activity(Label = "Select week number", Theme = "@style/AppTheme")]
+    public class SelectWeekNumberActivity : AppCompatActivity
     {
         Spinner weekNumberSpinner;
         int selectedWeekNumber;
@@ -58,7 +60,7 @@ namespace StrictlyStats
             selectedWeekNumber = Convert.ToInt32(weekNumberSpinner.GetItemAtPosition(position));
             if (activityType == ActivityType.EnterScores && uow.Couples.GetCurrentWeekNumber() > selectedWeekNumber)
             {
-                var dlgAlert = (new AlertDialog.Builder(this)).Create();
+                var dlgAlert = (new Android.App.AlertDialog.Builder(this)).Create();
                 dlgAlert.SetMessage("OK to overwrite existing scores for " + selectedWeekNumber + "?");
                 dlgAlert.SetTitle("Selected Week already has Scores");
                 dlgAlert.SetButton("OK", ContinueButton_Click);

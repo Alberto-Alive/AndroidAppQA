@@ -47,5 +47,15 @@ namespace StrictlyStatsDataLayer
             }
             return scores;
         }
+
+        public List<Score> GetScoresForCoupleWithDance (int coupleID)
+        {
+            var scores = Get(s => s.CoupleID == coupleID, s => s.Grade).ToList();
+            foreach (Score score in scores)
+            {
+                score.Dance = con.Table<Dance>().Single(c => c.DanceID == score.DanceID);
+            }
+            return scores;
+        }
     }
 }

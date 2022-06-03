@@ -43,6 +43,11 @@ namespace StrictlyStatsDataLayer.Models
             return $"ScoreID: {ScoreID}, WeekNumber: {WeekNumber}, Grade: {Grade}, CoupleID: {CoupleID}, DanceID: {DanceID}";
         }
 
+        public string ToStringWithDances()
+        {
+            return $"Dance name: {Dance.DanceName}, Score: {Grade}";
+        }
+
         public int CompareTo(Score other)
         {
             return this.Grade.CompareTo(other.Grade);

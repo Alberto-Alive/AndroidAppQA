@@ -18,5 +18,6 @@ namespace StrictlyStatsDataLayer
         List<Score> GetScoresRankedForWeek(int weekNumber);
         void DeleteScoresForWeekNumber(int DanceID);
         List<Score> GetScores();
+        List<Score> GetScoresForCoupleWithDance(int coupleID);
     }
 }

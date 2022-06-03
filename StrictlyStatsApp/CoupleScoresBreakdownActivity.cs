@@ -7,6 +7,7 @@ using Android.App;
 using Android.Content;
 using Android.OS;
 using Android.Runtime;
+using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
 using StrictlyStatsDataLayer;
@@ -14,8 +15,9 @@ using StrictlyStatsDataLayer.Models;
 
 namespace StrictlyStats
 {
-    [Activity(Label = "CoupleScoresBreakdown")]
-    public class CoupleScoresBreakdownActivity : Activity
+    //[Activity(Label = "CoupleScoresBreakdown")]
+    [Activity(Label = "Couple scores breakdown", Theme = "@style/AppTheme")]
+    public class CoupleScoresBreakdownActivity : AppCompatActivity
     {
         IStrictlyStatsUOW uow = Global.UOW;
         List<Couple> couples;

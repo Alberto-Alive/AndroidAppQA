@@ -14,6 +14,8 @@ namespace StrictlyStats
     {
         Button enterScoresButton;
         Button voteOffButton;
+        Button overviewButton;
+        Button coupleScoreBreakdownButton;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -44,8 +46,11 @@ namespace StrictlyStats
             Button rankingsButton = FindViewById<Button>(Resource.Id.rankingsButton);
             rankingsButton.Click += RankingsButton_Click;
 
-            Button coupleScoreBreakdownButton = FindViewById<Button>(Resource.Id.coupleScoreBreakdownButton);
+            coupleScoreBreakdownButton = FindViewById<Button>(Resource.Id.coupleScoreBreakdownButton);
             coupleScoreBreakdownButton.Click += CoupleScoreBreakdownButton_Click;
+
+            overviewButton = FindViewById<Button>(Resource.Id.overviewButton);
+            overviewButton.Click += OverviewButton_Click;
 
             voteOffButton = FindViewById<Button>(Resource.Id.voteOffButton);
             voteOffButton.Click += VoteOffButton_Click;
@@ -94,6 +99,13 @@ namespace StrictlyStats
                 rankingsIntent.PutExtra("ActivityType", (int)ActivityType.Rankings);
                 StartActivity(rankingsIntent);
                 return;
+        }
+
+        private void OverviewButton_Click(object sender, System.EventArgs e)
+        {
+            //Intent overviewIntent = new Intent(this, typeof(OverviewActivity));
+
+            //StartActivity(overviewIntent);
         }
 
         private void VoteOffButton_Click(object sender, System.EventArgs e)

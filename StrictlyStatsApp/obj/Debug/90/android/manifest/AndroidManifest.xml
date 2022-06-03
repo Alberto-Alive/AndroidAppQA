@@ -10,22 +10,22 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <application android:allowBackup="true" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme" android:name="android.app.Application" android:debuggable="true" android:extractNativeLibs="true">
     <activity android:label="Home" android:name="crc64614377a9225db125.CoupleScoresBreakdownActivitybckp" />
-    <activity android:label="CoupleScoresBreakdownDetailsActivity" android:name="crc64614377a9225db125.CoupleScoresBreakdownDetailsActivity" />
-    <activity android:label="InstructionDetailActivity" android:name="crc64614377a9225db125.InstructionDetailActivity" />
-    <activity android:label="Instructions" android:name="crc64614377a9225db125.Instructions" />
+    <activity android:label="Couple scores breakdown details" android:theme="@style/AppTheme" android:name="crc64614377a9225db125.CoupleScoresBreakdownDetailsActivity" />
+    <activity android:label="Instruction detail" android:theme="@style/AppTheme" android:name="crc64614377a9225db125.InstructionDetailActivity" />
+    <activity android:label="Instructions" android:theme="@style/AppTheme" android:name="crc64614377a9225db125.Instructions" />
     <activity android:label="@string/app_name" android:theme="@style/AppTheme" android:name="crc64614377a9225db125.MainActivity" android:exported="true">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:label="Home" android:name="crc64614377a9225db125.RankCouplesActivity" />
-    <activity android:label="CoupleScoresBreakdown" android:name="crc64614377a9225db125.CoupleScoresBreakdownActivity" />
+    <activity android:label="Rank couples" android:theme="@style/AppTheme" android:name="crc64614377a9225db125.RankCouplesActivity" />
+    <activity android:label="Couple scores breakdown" android:theme="@style/AppTheme" android:name="crc64614377a9225db125.CoupleScoresBreakdownActivity" />
     <activity android:label="Select Couple" android:name="crc64614377a9225db125.SelectCoupleActivity" />
-    <activity android:label="Enter Scores" android:name="crc64614377a9225db125.EnterScoresActivity" />
-    <activity android:label="Select Week Number" android:name="crc64614377a9225db125.SelectWeekNumberActivity" />
-    <activity android:label="Statistics for the Week" android:name="crc64614377a9225db125.StatsForTheWeekActivity" />
-    <activity android:label="We Have a Winner!" android:name="crc64614377a9225db125.WinnerActivity" />
+    <activity android:label="Enter scores" android:theme="@style/AppTheme" android:name="crc64614377a9225db125.EnterScoresActivity" />
+    <activity android:label="Select week number" android:theme="@style/AppTheme" android:name="crc64614377a9225db125.SelectWeekNumberActivity" />
+    <activity android:label="Statistics for the week" android:theme="@style/AppTheme" android:name="crc64614377a9225db125.StatsForTheWeekActivity" />
+    <activity android:label="We have a winner!" android:theme="@style/AppTheme" android:name="crc64614377a9225db125.WinnerActivity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="1999999999" android:authorities="StrictlyStats.StrictlyStats.mono.MonoRuntimeProvider.__mono_init__" />
   </application>
 </manifest>

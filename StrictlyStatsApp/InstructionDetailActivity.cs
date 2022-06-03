@@ -7,6 +7,7 @@ using Android.App;
 using Android.Content;
 using Android.OS;
 using Android.Runtime;
+using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
 using StrictlyStatsDataLayer;
@@ -14,8 +15,9 @@ using StrictlyStatsDataLayer.Models;
 
 namespace StrictlyStats
 {
-    [Activity(Label = "InstructionDetailActivity")]
-    public class InstructionDetailActivity : Activity
+    //[Activity(Label = "InstructionDetailActivity")]
+    [Activity(Label = "Instruction detail", Theme = "@style/AppTheme")]
+    public class InstructionDetailActivity : AppCompatActivity
     {
         IStrictlyStatsUOW uow = Global.UOW;
         protected override void OnCreate(Bundle savedInstanceState)

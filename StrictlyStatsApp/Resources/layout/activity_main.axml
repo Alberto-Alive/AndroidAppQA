@@ -41,6 +41,11 @@
         android:layout_height="wrap_content"
         android:id="@+id/coupleScoreBreakdownButton" />
     <Button
+        android:text="Overview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/overviewButton" />
+    <Button
         android:text="Vote Off"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

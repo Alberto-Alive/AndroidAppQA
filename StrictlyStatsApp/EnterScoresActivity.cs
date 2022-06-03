@@ -12,11 +12,13 @@ using Android.Widget;
 using StrictlyStatsDataLayer;
 using Android;
 using StrictlyStatsDataLayer.Models;
+using Android.Support.V7.App;
 
 namespace StrictlyStats
 {
-    [Activity(Label = "Enter Scores")]
-    public class EnterScoresActivity : Activity
+    //[Activity(Label = "Enter Scores")]
+    [Activity(Label = "Enter scores", Theme = "@style/AppTheme")]
+    public class EnterScoresActivity : AppCompatActivity
     {
         EditText coupleScoreEditText;
         TextView promptTextView;
@@ -66,7 +68,7 @@ namespace StrictlyStats
         private void CancelButton_Click(object sender, EventArgs e)
         {
 
-            var dlgAlert = (new AlertDialog.Builder(this)).Create();
+            var dlgAlert = (new Android.App.AlertDialog.Builder(this)).Create();
             dlgAlert.SetMessage($"WARNING: Cancelling now will undo any marks added for week number {weekNumber}. Are you sure you want to proceed?");
             dlgAlert.SetTitle("Cancel");
             dlgAlert.SetButton("Yes", (c, ev) =>
@@ -110,7 +112,7 @@ namespace StrictlyStats
 
             if (string.IsNullOrEmpty(coupleScoreEditText.Text.Trim()) || Decimal.Parse(coupleScoreEditText.Text) > 40 || Decimal.Parse(coupleScoreEditText.Text) < 0)
             {
-                var dlgAlert = (new AlertDialog.Builder(this)).Create();
+                var dlgAlert = (new Android.App.AlertDialog.Builder(this)).Create();
                 dlgAlert.SetMessage("Grade must lie between 0 and 40");
                 dlgAlert.SetTitle("Invalid Grade");
                 dlgAlert.SetButton("OK", (c, ev) =>

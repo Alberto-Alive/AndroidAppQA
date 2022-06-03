@@ -68,6 +68,7 @@
   <ItemGroup>
     <Compile Include="ActivityType.cs" />
     <Compile Include="CoupleScoresBreakdownActivitybckp.cs" />
+    <Compile Include="CoupleScoresBreakdownDetailsAdapter.cs" />
     <Compile Include="CoupleScoresBreakdownDetailsActivity.cs" />
     <Compile Include="InstructionDetailActivity.cs" />
     <Compile Include="Instructions.cs" />
