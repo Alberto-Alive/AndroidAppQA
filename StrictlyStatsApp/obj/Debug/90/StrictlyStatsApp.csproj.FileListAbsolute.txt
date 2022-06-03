@@ -301,15 +301,6 @@ D:\AbcUni\WebApp Mobile Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\
 D:\AbcUni\WebApp Mobile Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
 D:\AbcUni\WebApp Mobile Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\android\src\crc64614377a9225db125\CoupleScoresBreakdownActivity.java
 D:\AbcUni\WebApp Mobile Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\android\src\crc64614377a9225db125\CoupleScoresBreakdownActivitybckp.java
-D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\bin\Debug\StrictlyStats.dll
-D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\bin\Debug\StrictlyStats.pdb
-D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\bin\Debug\StrictlyStats.StrictlyStats.apk
-D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\bin\Debug\StrictlyStats.StrictlyStats.aab
-D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\bin\Debug\StrictlyStats.StrictlyStats-Signed.aab
-D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\bin\Debug\StrictlyStats.StrictlyStats-Signed.apk
-D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\bin\Debug\StrictlyStats.StrictlyStats-Signed.apk.idsig
-D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\bin\Debug\StrictlyStatsDataLayer.dll
-D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\bin\Debug\StrictlyStatsDataLayer.pdb
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\build.props
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\adb.props
@@ -325,6 +316,15 @@ D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\lp\30\jl\files.cache
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\lp\31\jl\files.cache
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\lp\32\jl\files.cache
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\bin\Debug\StrictlyStats.dll
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\bin\Debug\StrictlyStats.pdb
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\bin\Debug\StrictlyStats.StrictlyStats.apk
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\bin\Debug\StrictlyStats.StrictlyStats.aab
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\bin\Debug\StrictlyStats.StrictlyStats-Signed.aab
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\bin\Debug\StrictlyStats.StrictlyStats-Signed.apk
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\bin\Debug\StrictlyStats.StrictlyStats-Signed.apk.idsig
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\bin\Debug\StrictlyStatsDataLayer.dll
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\bin\Debug\StrictlyStatsDataLayer.pdb
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\R.txt
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\R.cs.flag
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\StrictlyStatsApp.csproj.CoreCompileInputs.cache
@@ -369,6 +369,9 @@ D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\res\layout\instructiondetail.xml
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\res\layout\couplescoresbreakdown.xml
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\res\layout\couplescoresbreakdowndetails.xml
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\res\layout\overview.xml
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\res\layout\dancesoverview.xml
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\res\layout\viewdance.xml
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\uploadflags.txt
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\resolvedassemblies.hash
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\android\assets\Java.Interop.dll
@@ -517,15 +520,20 @@ D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\android\src\crc64614377a9225db125\CoupleScoresBreakdownActivitybckp.java
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\android\src\crc64614377a9225db125\CoupleScoresBreakdownAdapter.java
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\android\src\crc64614377a9225db125\CoupleScoresBreakdownDetailsActivity.java
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\android\src\crc64614377a9225db125\CoupleScoresBreakdownDetailsAdapter.java
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\android\src\crc64614377a9225db125\DancesOverviewActivity.java
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\android\src\crc64614377a9225db125\DancesOverviewAdapter.java
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\android\src\crc64614377a9225db125\EnterScoresActivity.java
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\android\src\crc64614377a9225db125\InstructionDetailActivity.java
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\android\src\crc64614377a9225db125\Instructions.java
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\android\src\crc64614377a9225db125\InstructionsAdapter.java
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\android\src\crc64614377a9225db125\MainActivity.java
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\android\src\crc64614377a9225db125\OverviewActivity.java
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\android\src\crc64614377a9225db125\RankCouplesActivity.java
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\android\src\crc64614377a9225db125\SelectCoupleActivity.java
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\android\src\crc64614377a9225db125\SelectWeekNumberActivity.java
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\android\src\crc64614377a9225db125\StatsForTheWeekActivity.java
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\android\src\crc64614377a9225db125\ViewDanceActivity.java
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\android\src\crc64614377a9225db125\WinnerActivity.java
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\android\src\mono\android\app\ApplicationRegistration.java
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\android\src\mono\android\support\design\chip\ChipGroup_OnCheckedChangeListenerImplementor.java
@@ -608,4 +616,3 @@ D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
-D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\android\src\crc64614377a9225db125\CoupleScoresBreakdownDetailsAdapter.java

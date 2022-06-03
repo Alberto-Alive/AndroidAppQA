@@ -103,9 +103,9 @@ namespace StrictlyStats
 
         private void OverviewButton_Click(object sender, System.EventArgs e)
         {
-            //Intent overviewIntent = new Intent(this, typeof(OverviewActivity));
+            Intent overviewIntent = new Intent(this, typeof(OverviewActivity));
 
-            //StartActivity(overviewIntent);
+            StartActivity(overviewIntent);
         }
 
         private void VoteOffButton_Click(object sender, System.EventArgs e)
