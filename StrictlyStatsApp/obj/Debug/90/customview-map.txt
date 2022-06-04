@@ -1,6 +1,5 @@
 adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
 adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
-application;obj\Debug\90\res\properties\androidmanifest.xml
 background;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
 background;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
 Button;obj\Debug\90\res\layout\activity_main.xml
@@ -42,7 +41,6 @@ ListView;obj\Debug\90\res\layout\couplescoresbreakdowndetails.xml
 ListView;obj\Debug\90\res\layout\dancesoverview.xml
 ListView;obj\Debug\90\res\layout\instructions.xml
 ListView;obj\Debug\90\res\layout\rankedcouples.xml
-manifest;obj\Debug\90\res\properties\androidmanifest.xml
 resources;D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\lp\1\jl\res\values\strings.xml
 resources;obj\Debug\90\res\values\colors.xml
 resources;obj\Debug\90\res\values\ic_launcher_background.xml
@@ -69,4 +67,3 @@ TextView;obj\Debug\90\res\layout\selectweeknumber.xml
 TextView;obj\Debug\90\res\layout\statsfortheweek.xml
 TextView;obj\Debug\90\res\layout\viewdance.xml
 TextView;obj\Debug\90\res\layout\winner.xml
-uses-sdk;obj\Debug\90\res\properties\androidmanifest.xml

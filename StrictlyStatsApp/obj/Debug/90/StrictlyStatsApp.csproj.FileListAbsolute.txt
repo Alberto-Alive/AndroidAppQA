@@ -301,6 +301,15 @@ D:\AbcUni\WebApp Mobile Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\
 D:\AbcUni\WebApp Mobile Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
 D:\AbcUni\WebApp Mobile Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\android\src\crc64614377a9225db125\CoupleScoresBreakdownActivity.java
 D:\AbcUni\WebApp Mobile Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\android\src\crc64614377a9225db125\CoupleScoresBreakdownActivitybckp.java
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\bin\Debug\StrictlyStats.dll
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\bin\Debug\StrictlyStats.pdb
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\bin\Debug\StrictlyStats.StrictlyStats.apk
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\bin\Debug\StrictlyStats.StrictlyStats.aab
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\bin\Debug\StrictlyStats.StrictlyStats-Signed.aab
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\bin\Debug\StrictlyStats.StrictlyStats-Signed.apk
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\bin\Debug\StrictlyStats.StrictlyStats-Signed.apk.idsig
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\bin\Debug\StrictlyStatsDataLayer.dll
+D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\bin\Debug\StrictlyStatsDataLayer.pdb
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\build.props
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\adb.props
@@ -316,15 +325,6 @@ D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\lp\30\jl\files.cache
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\lp\31\jl\files.cache
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\lp\32\jl\files.cache
-D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\bin\Debug\StrictlyStats.dll
-D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\bin\Debug\StrictlyStats.pdb
-D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\bin\Debug\StrictlyStats.StrictlyStats.apk
-D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\bin\Debug\StrictlyStats.StrictlyStats.aab
-D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\bin\Debug\StrictlyStats.StrictlyStats-Signed.aab
-D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\bin\Debug\StrictlyStats.StrictlyStats-Signed.apk
-D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\bin\Debug\StrictlyStats.StrictlyStats-Signed.apk.idsig
-D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\bin\Debug\StrictlyStatsDataLayer.dll
-D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\bin\Debug\StrictlyStatsDataLayer.pdb
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\R.txt
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\R.cs.flag
 D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\StrictlyStatsApp.csproj.CoreCompileInputs.cache
