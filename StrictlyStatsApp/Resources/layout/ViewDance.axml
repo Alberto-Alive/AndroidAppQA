@@ -35,12 +35,12 @@
         android:id="@+id/txtDanceViewDescription" />
     <Button
         android:text="Edit"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnEditDance" />
     <Button
         android:text="Delete"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnDeleteDance" />
 </LinearLayout>
