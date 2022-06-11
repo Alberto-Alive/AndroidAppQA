@@ -49,6 +49,7 @@ resources;obj\Debug\90\res\values\colors.xml
 resources;obj\Debug\90\res\values\ic_launcher_background.xml
 resources;obj\Debug\90\res\values\strings.xml
 resources;obj\Debug\90\res\values\styles.xml
+Spinner;obj\Debug\90\res\layout\adddance.xml
 Spinner;obj\Debug\90\res\layout\enterscores.xml
 Spinner;obj\Debug\90\res\layout\selectcouple.xml
 Spinner;obj\Debug\90\res\layout\selectweeknumber.xml

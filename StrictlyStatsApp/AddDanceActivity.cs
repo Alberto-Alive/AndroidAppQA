@@ -20,6 +20,7 @@ namespace StrictlyStats
         IStrictlyStatsUOW uow = Global.UOW;
         Button btnAddDance;
         Button btnCancelDance;
+        Spinner weekNumberSpinner;
         EditText editName;
         EditText editDescription;
         EditText editDifficulty;
@@ -38,9 +39,14 @@ namespace StrictlyStats
                 dance = uow.Dances.GetById(danceID);
             }
 
+            weekNumberSpinner = FindViewById<Spinner>(Resource.Id.weekNumberSpinner);
             editName = FindViewById<EditText>(Resource.Id.editName);
-            editDifficulty = FindViewById<EditText>(Resource.Id.editDifficulty);
             editDescription = FindViewById<EditText>(Resource.Id.editDescription);
+
+            String[] items = new String[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" };
+
+            ArrayAdapter adapter = new ArrayAdapter(this, Android.Resource.Layout.SimpleSpinnerDropDownItem, items);
+            weekNumberSpinner.Adapter = adapter;
 
             btnAddDance = FindViewById<Button>(Resource.Id.btnAddDance);
             btnAddDance.Click += (sender, e) => { BtnSaveDance_Click(); };
@@ -51,7 +57,8 @@ namespace StrictlyStats
         private void BtnSaveDance_Click()
         {
             dance.DanceName = editName.Text;
-            dance.DegreeOfDifficulty = Convert.ToInt16(editDifficulty.Text);
+            int position = weekNumberSpinner.SelectedItemPosition;
+            dance.DegreeOfDifficulty = Convert.ToInt32(weekNumberSpinner.GetItemAtPosition(position).ToString());
             dance.Description = editDescription.Text;
             var dlgAlert = (new Android.App.AlertDialog.Builder(this)).Create();
             dlgAlert.SetMessage("Please confirm saving the following dance to database: " + dance.DanceName);
