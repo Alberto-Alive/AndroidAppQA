@@ -19,6 +19,7 @@ namespace StrictlyStats
     {
         IStrictlyStatsUOW uow = Global.UOW;
         Button btnAddDance;
+        Button btnCancelDance;
         EditText editName;
         EditText editDescription;
         EditText editDifficulty;
@@ -40,9 +41,12 @@ namespace StrictlyStats
             editName = FindViewById<EditText>(Resource.Id.editName);
             editDifficulty = FindViewById<EditText>(Resource.Id.editDifficulty);
             editDescription = FindViewById<EditText>(Resource.Id.editDescription);
-            
+
             btnAddDance = FindViewById<Button>(Resource.Id.btnAddDance);
             btnAddDance.Click += (sender, e) => { BtnSaveDance_Click(); };
+
+            btnCancelDance = FindViewById<Button>(Resource.Id.btnCancelAddDance);
+            btnCancelDance.Click += (sender, e) =>  { btnCancelDance_Click(); };
         }
         private void BtnSaveDance_Click()
         {
@@ -61,9 +65,13 @@ namespace StrictlyStats
             });
             dlgAlert.SetButton2("CANCEL", (c, ev) => { });
             dlgAlert.Show();
-            
-            
-          
+        }
+
+        private void btnCancelDance_Click()
+        {
+            Intent dancesOverviewIntent = new Intent(this, typeof(DancesOverviewActivity));
+            Finish();
+            StartActivity(dancesOverviewIntent);
         }
 
     }
