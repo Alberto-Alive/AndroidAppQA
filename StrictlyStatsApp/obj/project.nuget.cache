@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cV8jAePAJwlyN9uM3o14VYjoHjzg8GoZl7HCXytDmgoQ1fhLLD2u6rRsDcheX4x13jB2Y5+1rfBmbs+w3pkSEg==",
+  "dgSpecHash": "HFKtKK/LzU1i55IJNFPdrk5234U5fTPhNFDbVG7oTDC87Dd4f+3PAtA6LivPE9RQAO+R0dnwh3r2My8AthKlLw==",
   "success": true,
-  "projectFilePath": "D:\\AbcUni\\WebApp-Mobile-Exam\\StrictlyStatsStarter\\StrictlyStatsApp\\StrictlyStatsApp.csproj",
+  "projectFilePath": "D:\\AbcUni\\GitHubPull\\AndroidAppQA\\StrictlyStatsApp\\StrictlyStatsApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\P-o1\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
     "C:\\Users\\P-o1\\.nuget\\packages\\sqlite-net\\1.6.292\\sqlite-net.1.6.292.nupkg.sha512",

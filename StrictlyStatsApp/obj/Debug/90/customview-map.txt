@@ -3,6 +3,7 @@ adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
 background;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
 background;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
 Button;obj\Debug\90\res\layout\activity_main.xml
+Button;obj\Debug\90\res\layout\adddance.xml
 Button;obj\Debug\90\res\layout\couplescoresbreakdown.xml
 Button;obj\Debug\90\res\layout\dancesoverview.xml
 Button;obj\Debug\90\res\layout\enterscores.xml
@@ -17,11 +18,13 @@ Button;obj\Debug\90\res\layout\viewdance.xml
 Button;obj\Debug\90\res\layout\winner.xml
 color;obj\Debug\90\res\values\colors.xml
 color;obj\Debug\90\res\values\ic_launcher_background.xml
+EditText;obj\Debug\90\res\layout\adddance.xml
 EditText;obj\Debug\90\res\layout\enterscores.xml
 foreground;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
 foreground;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
 item;obj\Debug\90\res\values\styles.xml
 LinearLayout;obj\Debug\90\res\layout\activity_main.xml
+LinearLayout;obj\Debug\90\res\layout\adddance.xml
 LinearLayout;obj\Debug\90\res\layout\couplescoresbreakdown.xml
 LinearLayout;obj\Debug\90\res\layout\couplescoresbreakdowndetails.xml
 LinearLayout;obj\Debug\90\res\layout\dancesoverview.xml
@@ -41,7 +44,7 @@ ListView;obj\Debug\90\res\layout\couplescoresbreakdowndetails.xml
 ListView;obj\Debug\90\res\layout\dancesoverview.xml
 ListView;obj\Debug\90\res\layout\instructions.xml
 ListView;obj\Debug\90\res\layout\rankedcouples.xml
-resources;D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\lp\1\jl\res\values\strings.xml
+resources;D:\AbcUni\GitHubPull\AndroidAppQA\StrictlyStatsApp\obj\Debug\90\lp\1\jl\res\values\strings.xml
 resources;obj\Debug\90\res\values\colors.xml
 resources;obj\Debug\90\res\values\ic_launcher_background.xml
 resources;obj\Debug\90\res\values\strings.xml
@@ -49,10 +52,11 @@ resources;obj\Debug\90\res\values\styles.xml
 Spinner;obj\Debug\90\res\layout\enterscores.xml
 Spinner;obj\Debug\90\res\layout\selectcouple.xml
 Spinner;obj\Debug\90\res\layout\selectweeknumber.xml
-string;D:\AbcUni\WebApp-Mobile-Exam\StrictlyStatsStarter\StrictlyStatsApp\obj\Debug\90\lp\1\jl\res\values\strings.xml
+string;D:\AbcUni\GitHubPull\AndroidAppQA\StrictlyStatsApp\obj\Debug\90\lp\1\jl\res\values\strings.xml
 string;obj\Debug\90\res\values\strings.xml
 style;obj\Debug\90\res\values\styles.xml
 TextView;obj\Debug\90\res\layout\activity_main.xml
+TextView;obj\Debug\90\res\layout\adddance.xml
 TextView;obj\Debug\90\res\layout\couplescoresbreakdown.xml
 TextView;obj\Debug\90\res\layout\couplescoresbreakdowndetails.xml
 TextView;obj\Debug\90\res\layout\dancesoverview.xml

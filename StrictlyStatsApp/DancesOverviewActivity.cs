@@ -33,18 +33,20 @@ namespace StrictlyStats
             lstVwDancesOverview.Adapter = new DancesOverviewAdapter(this, dances);
             lstVwDancesOverview.ItemClick += LstVwDancesOverview_ItemClick;
 
-            Button addNewBtn = FindViewById<Button>(Resource.Id.btnAddNewDance);
-            addNewBtn.Click += AddNewBtn_Click;
+            Button addANewBtn = FindViewById<Button>(Resource.Id.btnAddNewDance);
+            addANewBtn.Click += AddANewBtn_Click;
         }
 
-        private void AddNewBtn_Click(object sender, EventArgs e)
+        private void AddANewBtn_Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            Intent intent = new Intent(this, typeof(AddDanceActivity));
+            StartActivity(intent);
         }
 
         private void LstVwDancesOverview_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
         {
             Intent intent = new Intent(this, typeof(ViewDanceActivity));
+            //Intent intent = new Intent(this, typeof(AddDanceActivity));
             intent.PutExtra("DanceID", dances[e.Position].DanceID);
             StartActivity(intent);
         }

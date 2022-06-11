@@ -37,7 +37,13 @@ namespace StrictlyStats
                 view = context.LayoutInflater.Inflate(Android.Resource.Layout.TwoLineListItem, null);
             var item = GetItem(position);
             view.FindViewById<TextView>(Android.Resource.Id.Text1).Text = item.DanceName;
-            view.FindViewById<TextView>(Android.Resource.Id.Text2).Text = item.Description.Substring(0, 20) + "...";
+            if (item.Description.Length > 20)
+            {
+                view.FindViewById<TextView>(Android.Resource.Id.Text2).Text = item.Description.Substring(0, 20) + "...";
+            } else
+            {
+                view.FindViewById<TextView>(Android.Resource.Id.Text2).Text = item.Description;
+            };
            
             return view;
         }

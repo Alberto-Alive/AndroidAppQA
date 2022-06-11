@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AbcUni\\WebApp-Mobile-Exam\\StrictlyStatsStarter\\StrictlyStatsApp\\StrictlyStatsApp.csproj": {}
+    "D:\\AbcUni\\GitHubPull\\AndroidAppQA\\StrictlyStatsApp\\StrictlyStatsApp.csproj": {}
   },
   "projects": {
-    "D:\\AbcUni\\WebApp-Mobile-Exam\\StrictlyStatsStarter\\StrictlyStatsApp\\StrictlyStatsApp.csproj": {
+    "D:\\AbcUni\\GitHubPull\\AndroidAppQA\\StrictlyStatsApp\\StrictlyStatsApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AbcUni\\WebApp-Mobile-Exam\\StrictlyStatsStarter\\StrictlyStatsApp\\StrictlyStatsApp.csproj",
+        "projectUniqueName": "D:\\AbcUni\\GitHubPull\\AndroidAppQA\\StrictlyStatsApp\\StrictlyStatsApp.csproj",
         "projectName": "StrictlyStats",
-        "projectPath": "D:\\AbcUni\\WebApp-Mobile-Exam\\StrictlyStatsStarter\\StrictlyStatsApp\\StrictlyStatsApp.csproj",
+        "projectPath": "D:\\AbcUni\\GitHubPull\\AndroidAppQA\\StrictlyStatsApp\\StrictlyStatsApp.csproj",
         "packagesPath": "C:\\Users\\P-o1\\.nuget\\packages\\",
-        "outputPath": "D:\\AbcUni\\WebApp-Mobile-Exam\\StrictlyStatsStarter\\StrictlyStatsApp\\obj\\",
+        "outputPath": "D:\\AbcUni\\GitHubPull\\AndroidAppQA\\StrictlyStatsApp\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -28,8 +28,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "D:\\AbcUni\\WebApp-Mobile-Exam\\StrictlyStatsStarter\\StrictlyStatsDataLayer\\StrictlyStatsDataLayer.csproj": {
-                "projectPath": "D:\\AbcUni\\WebApp-Mobile-Exam\\StrictlyStatsStarter\\StrictlyStatsDataLayer\\StrictlyStatsDataLayer.csproj"
+              "D:\\AbcUni\\GitHubPull\\AndroidAppQA\\StrictlyStatsDataLayer\\StrictlyStatsDataLayer.csproj": {
+                "projectPath": "D:\\AbcUni\\GitHubPull\\AndroidAppQA\\StrictlyStatsDataLayer\\StrictlyStatsDataLayer.csproj"
               }
             }
           }
@@ -54,14 +54,14 @@
         }
       }
     },
-    "D:\\AbcUni\\WebApp-Mobile-Exam\\StrictlyStatsStarter\\StrictlyStatsDataLayer\\StrictlyStatsDataLayer.csproj": {
+    "D:\\AbcUni\\GitHubPull\\AndroidAppQA\\StrictlyStatsDataLayer\\StrictlyStatsDataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AbcUni\\WebApp-Mobile-Exam\\StrictlyStatsStarter\\StrictlyStatsDataLayer\\StrictlyStatsDataLayer.csproj",
+        "projectUniqueName": "D:\\AbcUni\\GitHubPull\\AndroidAppQA\\StrictlyStatsDataLayer\\StrictlyStatsDataLayer.csproj",
         "projectName": "StrictlyStatsDataLayer",
-        "projectPath": "D:\\AbcUni\\WebApp-Mobile-Exam\\StrictlyStatsStarter\\StrictlyStatsDataLayer\\StrictlyStatsDataLayer.csproj",
+        "projectPath": "D:\\AbcUni\\GitHubPull\\AndroidAppQA\\StrictlyStatsDataLayer\\StrictlyStatsDataLayer.csproj",
         "packagesPath": "C:\\Users\\P-o1\\.nuget\\packages\\",
-        "outputPath": "D:\\AbcUni\\WebApp-Mobile-Exam\\StrictlyStatsStarter\\StrictlyStatsDataLayer\\obj\\",
+        "outputPath": "D:\\AbcUni\\GitHubPull\\AndroidAppQA\\StrictlyStatsDataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
