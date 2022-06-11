@@ -1,5 +1,6 @@
 ﻿using Android.App;
 using Android.Content;
+using Android.Content.Res;
 using Android.OS;
 using Android.Runtime;
 using Android.Support.V7.App;
@@ -43,15 +44,26 @@ namespace StrictlyStats
             btnAddDance = FindViewById<Button>(Resource.Id.btnAddDance);
             btnAddDance.Click += (sender, e) => { BtnSaveDance_Click(); };
         }
-        void BtnSaveDance_Click()
+        private void BtnSaveDance_Click()
         {
             dance.DanceName = editName.Text;
             dance.DegreeOfDifficulty = Convert.ToInt16(editDifficulty.Text);
             dance.Description = editDescription.Text;
-            uow.Dances.Insert(dance);
-            Intent dancesOverviewIntent = new Intent(this, typeof(DancesOverviewActivity));
-            Finish();
-            StartActivity(dancesOverviewIntent);
+            var dlgAlert = (new Android.App.AlertDialog.Builder(this)).Create();
+            dlgAlert.SetMessage("Please confirm saving the following dance to database: " + dance.DanceName);
+            dlgAlert.SetTitle("Save dance?");
+            dlgAlert.SetButton("OK", (c, ev) =>
+            {
+                uow.Dances.Insert(dance);
+                Intent dancesOverviewIntent = new Intent(this, typeof(DancesOverviewActivity));
+                Finish();
+                StartActivity(dancesOverviewIntent);
+            });
+            dlgAlert.SetButton2("CANCEL", (c, ev) => { });
+            dlgAlert.Show();
+            
+            
+          
         }
 
     }
