@@ -75,9 +75,7 @@ namespace StrictlyStats
                 {
                     uow.Dances.Insert(dance);
                 }
-                Intent dancesOverviewIntent = new Intent(this, typeof(DancesOverviewActivity));
                 Finish();
-                StartActivity(dancesOverviewIntent);
             });
             dlgAlert.SetButton2("CANCEL", (c, ev) => { });
             dlgAlert.Show();
@@ -85,9 +83,7 @@ namespace StrictlyStats
 
         private void btnCancelDance_Click()
         {
-            Intent dancesOverviewIntent = new Intent(this, typeof(DancesOverviewActivity));
             Finish();
-            StartActivity(dancesOverviewIntent);
         }
 
     }
