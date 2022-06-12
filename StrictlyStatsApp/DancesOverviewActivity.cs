@@ -45,8 +45,8 @@ namespace StrictlyStats
 
         private void LstVwDancesOverview_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
         {
-            Intent intent = new Intent(this, typeof(ViewDanceActivity));
-            //Intent intent = new Intent(this, typeof(AddDanceActivity));
+            //Intent intent = new Intent(this, typeof(ViewDanceActivity));
+            Intent intent = new Intent(this, typeof(AddDanceActivity));
             intent.PutExtra("DanceID", dances[e.Position].DanceID);
             StartActivity(intent);
         }

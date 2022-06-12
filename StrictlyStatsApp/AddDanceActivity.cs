@@ -23,10 +23,8 @@ namespace StrictlyStats
         Spinner weekNumberSpinner;
         EditText editName;
         EditText editDescription;
-        EditText editDifficulty;
         Dance dance = new Dance();
-
-
+       
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -39,14 +37,19 @@ namespace StrictlyStats
                 dance = uow.Dances.GetById(danceID);
             }
 
-            weekNumberSpinner = FindViewById<Spinner>(Resource.Id.weekNumberSpinner);
             editName = FindViewById<EditText>(Resource.Id.editName);
+            weekNumberSpinner = FindViewById<Spinner>(Resource.Id.weekNumberSpinner);
             editDescription = FindViewById<EditText>(Resource.Id.editDescription);
 
-            String[] items = new String[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" };
+            editName.Text = dance.DanceName;
+            editDescription.Text = dance.Description;
+
+            int[] items = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
             ArrayAdapter adapter = new ArrayAdapter(this, Android.Resource.Layout.SimpleSpinnerDropDownItem, items);
             weekNumberSpinner.Adapter = adapter;
+
+            weekNumberSpinner.SetSelection(Convert.ToInt16(dance.DegreeOfDifficulty) -1);
 
             btnAddDance = FindViewById<Button>(Resource.Id.btnAddDance);
             btnAddDance.Click += (sender, e) => { BtnSaveDance_Click(); };
@@ -58,14 +61,20 @@ namespace StrictlyStats
         {
             dance.DanceName = editName.Text;
             int position = weekNumberSpinner.SelectedItemPosition;
-            dance.DegreeOfDifficulty = Convert.ToInt32(weekNumberSpinner.GetItemAtPosition(position).ToString());
+            dance.DegreeOfDifficulty = Convert.ToInt32(weekNumberSpinner.GetItemAtPosition(position));
             dance.Description = editDescription.Text;
             var dlgAlert = (new Android.App.AlertDialog.Builder(this)).Create();
             dlgAlert.SetMessage("Please confirm saving the following dance to database: " + dance.DanceName);
             dlgAlert.SetTitle("Save dance?");
             dlgAlert.SetButton("OK", (c, ev) =>
             {
-                uow.Dances.Insert(dance);
+                if (dance.DanceID > 0)
+                {
+                    uow.Dances.Update(dance);
+                } else
+                {
+                    uow.Dances.Insert(dance);
+                }
                 Intent dancesOverviewIntent = new Intent(this, typeof(DancesOverviewActivity));
                 Finish();
                 StartActivity(dancesOverviewIntent);
