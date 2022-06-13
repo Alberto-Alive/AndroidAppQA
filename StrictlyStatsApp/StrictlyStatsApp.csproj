@@ -68,6 +68,7 @@
   <ItemGroup>
     <Compile Include="ActivityType.cs" />
     <Compile Include="AddDanceActivity.cs" />
+    <Compile Include="CoupleScoresBreakdownActivitySplit.cs" />
     <Compile Include="DancesOverviewAdapter.cs" />
     <Compile Include="DancesOverviewActivity.cs" />
     <Compile Include="CoupleScoresBreakdownActivitybckp.cs" />
@@ -212,6 +213,9 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\AddDance.axml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\test1.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

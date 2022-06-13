@@ -1,0 +1,50 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+     <LinearLayout
+		  android:orientation="vertical"
+          android:layout_weight="1" 
+		  android:minWidth="25px"
+		  android:minHeight="25px"
+		  android:layout_width="match_parent"
+		  android:layout_height="fill_parent"
+		  android:id="@+id/linearLayout2">
+	<ListView
+          android:minWidth="25px"
+          android:minHeight="25px"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:listSelector="#11FFFF"
+          android:id="@+id/titlesListView" />
+	</LinearLayout>
+     <LinearLayout
+		  android:orientation="vertical"
+          android:layout_weight="1" 
+		  android:minWidth="25px"
+		  android:minHeight="25px"
+		  android:layout_width="match_parent"
+		  android:layout_height="fill_parent"
+		  android:id="@+id/linearLayout3">
+	
+	<TextView
+          android:text=""
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/quoteTextView" />
+    <ListView
+          android:minWidth="25px"
+          android:minHeight="25px"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/lstVwCoupleScores" />
+	<TextView
+          android:text=""
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/avgTextView" />
+	</LinearLayout>
+
+</LinearLayout>
