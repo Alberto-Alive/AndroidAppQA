@@ -24303,8 +24303,8 @@
 
 	.type	.L.java_type_name.4860, @object
 .L.java_type_name.4860:
-	.asciz	"crc64614377a9225db125/CoupleScoresBreakdownActivitySplit"
-	.size	.L.java_type_name.4860, 57
+	.asciz	"crc64614377a9225db125/CoupleScoresBreakdownActivityOld"
+	.size	.L.java_type_name.4860, 55
 
 	.type	.L.java_type_name.4861, @object
 .L.java_type_name.4861:
@@ -77207,8 +77207,8 @@
 
 	.type	.L.managed_type_name.7710, @object
 .L.managed_type_name.7710:
-	.asciz	"StrictlyStats.CoupleScoresBreakdownActivitySplit, StrictlyStats"
-	.size	.L.managed_type_name.7710, 64
+	.asciz	"StrictlyStats.CoupleScoresBreakdownActivityOld, StrictlyStats"
+	.size	.L.managed_type_name.7710, 62
 
 	.type	.L.managed_type_name.7711, @object
 .L.managed_type_name.7711:

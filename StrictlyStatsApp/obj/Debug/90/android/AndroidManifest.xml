@@ -10,7 +10,7 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <application android:allowBackup="true" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme" android:name="android.app.Application" android:debuggable="true" android:extractNativeLibs="true">
     <activity android:label="Add Dance" android:theme="@style/AppTheme" android:name="crc64614377a9225db125.AddDanceActivity" />
-    <activity android:label="Couple scores breakdown" android:theme="@style/AppTheme" android:name="crc64614377a9225db125.CoupleScoresBreakdownActivitySplit" />
+    <activity android:label="Couple scores breakdown" android:theme="@style/AppTheme" android:name="crc64614377a9225db125.CoupleScoresBreakdownActivity" />
     <activity android:label="Dances overview" android:theme="@style/AppTheme" android:name="crc64614377a9225db125.DancesOverviewActivity" />
     <activity android:label="Home" android:name="crc64614377a9225db125.CoupleScoresBreakdownActivitybckp" />
     <activity android:label="Couple scores breakdown details" android:theme="@style/AppTheme" android:name="crc64614377a9225db125.CoupleScoresBreakdownDetailsActivity" />
@@ -24,7 +24,7 @@
       </intent-filter>
     </activity>
     <activity android:label="Rank couples" android:theme="@style/AppTheme" android:name="crc64614377a9225db125.RankCouplesActivity" />
-    <activity android:label="Couple scores breakdown" android:theme="@style/AppTheme" android:name="crc64614377a9225db125.CoupleScoresBreakdownActivity" />
+    <activity android:label="Couple scores breakdown" android:theme="@style/AppTheme" android:name="crc64614377a9225db125.CoupleScoresBreakdownActivityOld" />
     <activity android:label="Select Couple" android:name="crc64614377a9225db125.SelectCoupleActivity" />
     <activity android:label="Enter scores" android:theme="@style/AppTheme" android:name="crc64614377a9225db125.EnterScoresActivity" />
     <activity android:label="Select week number" android:theme="@style/AppTheme" android:name="crc64614377a9225db125.SelectWeekNumberActivity" />

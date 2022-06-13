@@ -27,6 +27,7 @@ LinearLayout;obj\Debug\90\res\layout\activity_main.xml
 LinearLayout;obj\Debug\90\res\layout\adddance.xml
 LinearLayout;obj\Debug\90\res\layout\couplescoresbreakdown.xml
 LinearLayout;obj\Debug\90\res\layout\couplescoresbreakdowndetails.xml
+LinearLayout;obj\Debug\90\res\layout\couplesscoresbreakdownpage.xml
 LinearLayout;obj\Debug\90\res\layout\dancesoverview.xml
 LinearLayout;obj\Debug\90\res\layout\enterscores.xml
 LinearLayout;obj\Debug\90\res\layout\instructiondetail.xml
@@ -42,6 +43,7 @@ LinearLayout;obj\Debug\90\res\layout\viewdance.xml
 LinearLayout;obj\Debug\90\res\layout\winner.xml
 ListView;obj\Debug\90\res\layout\couplescoresbreakdown.xml
 ListView;obj\Debug\90\res\layout\couplescoresbreakdowndetails.xml
+ListView;obj\Debug\90\res\layout\couplesscoresbreakdownpage.xml
 ListView;obj\Debug\90\res\layout\dancesoverview.xml
 ListView;obj\Debug\90\res\layout\instructions.xml
 ListView;obj\Debug\90\res\layout\rankedcouples.xml
@@ -62,6 +64,7 @@ TextView;obj\Debug\90\res\layout\activity_main.xml
 TextView;obj\Debug\90\res\layout\adddance.xml
 TextView;obj\Debug\90\res\layout\couplescoresbreakdown.xml
 TextView;obj\Debug\90\res\layout\couplescoresbreakdowndetails.xml
+TextView;obj\Debug\90\res\layout\couplesscoresbreakdownpage.xml
 TextView;obj\Debug\90\res\layout\dancesoverview.xml
 TextView;obj\Debug\90\res\layout\enterscores.xml
 TextView;obj\Debug\90\res\layout\instructiondetail.xml

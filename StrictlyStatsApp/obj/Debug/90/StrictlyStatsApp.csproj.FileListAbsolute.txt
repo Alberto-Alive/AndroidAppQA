@@ -933,5 +933,6 @@ D:\AbcUni\GitHubPull\AndroidAppQA\StrictlyStatsApp\obj\Debug\90\stamp\_GenerateP
 D:\AbcUni\GitHubPull\AndroidAppQA\StrictlyStatsApp\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
 D:\AbcUni\GitHubPull\AndroidAppQA\StrictlyStatsApp\obj\Debug\90\res\layout\adddance.xml
 D:\AbcUni\GitHubPull\AndroidAppQA\StrictlyStatsApp\obj\Debug\90\android\src\crc64614377a9225db125\AddDanceActivity.java
-D:\AbcUni\GitHubPull\AndroidAppQA\StrictlyStatsApp\obj\Debug\90\res\layout\test1.xml
 D:\AbcUni\GitHubPull\AndroidAppQA\StrictlyStatsApp\obj\Debug\90\android\src\crc64614377a9225db125\CoupleScoresBreakdownActivitySplit.java
+D:\AbcUni\GitHubPull\AndroidAppQA\StrictlyStatsApp\obj\Debug\90\res\layout\couplesscoresbreakdownpage.xml
+D:\AbcUni\GitHubPull\AndroidAppQA\StrictlyStatsApp\obj\Debug\90\android\src\crc64614377a9225db125\CoupleScoresBreakdownActivityOld.java

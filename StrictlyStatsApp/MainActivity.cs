@@ -71,11 +71,9 @@ namespace StrictlyStats
             writeStream.Close();
         }
 
-        //Alberto
         private void CoupleScoreBreakdownButton_Click(object sender, System.EventArgs e)
         {
-            //Intent coupleScoreBreakdownIntent = new Intent(this, typeof(CoupleScoresBreakdownActivity));
-            Intent coupleScoreBreakdownIntent = new Intent(this, typeof(CoupleScoresBreakdownActivitySplit));
+            Intent coupleScoreBreakdownIntent = new Intent(this, typeof(CoupleScoresBreakdownActivity));
 
             StartActivity(coupleScoreBreakdownIntent);
         }
