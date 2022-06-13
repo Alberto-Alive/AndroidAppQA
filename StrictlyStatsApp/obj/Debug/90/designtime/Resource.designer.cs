@@ -3967,13 +3967,13 @@ namespace StrictlyStats
 			public const int AddDance = 2131427357;
 			
 			// aapt resource value: 0x7F0B001E
-			public const int CoupleScoresBreakdown = 2131427358;
+			public const int CoupleScoresBreakdownDetails = 2131427358;
 			
 			// aapt resource value: 0x7F0B001F
-			public const int CoupleScoresBreakdownDetails = 2131427359;
+			public const int CoupleScoresBreakdownPage = 2131427359;
 			
 			// aapt resource value: 0x7F0B0020
-			public const int CouplesScoresBreakdownPage = 2131427360;
+			public const int CouplesScoresBreakdown = 2131427360;
 			
 			// aapt resource value: 0x7F0B0021
 			public const int DancesOverview = 2131427361;

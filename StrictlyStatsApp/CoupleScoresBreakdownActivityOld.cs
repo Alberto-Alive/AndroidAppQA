@@ -25,7 +25,7 @@ namespace StrictlyStats
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            SetContentView(Resource.Layout.CouplesScoresBreakdownPage);
+            SetContentView(Resource.Layout.CouplesScoresBreakdown);
 
             ListView lstVwCouples = FindViewById<ListView>(Resource.Id.lstVwCouples);
             lstVwCouples.ChoiceMode = ChoiceMode.Single;

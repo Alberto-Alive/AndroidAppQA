@@ -1266,9 +1266,9 @@ int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
 int layout activity_main 0x7f0b001c
 int layout adddance 0x7f0b001d
-int layout couplescoresbreakdown 0x7f0b001e
-int layout couplescoresbreakdowndetails 0x7f0b001f
-int layout couplesscoresbreakdownpage 0x7f0b0020
+int layout couplescoresbreakdowndetails 0x7f0b001e
+int layout couplescoresbreakdownpage 0x7f0b001f
+int layout couplesscoresbreakdown 0x7f0b0020
 int layout dancesoverview 0x7f0b0021
 int layout design_bottom_navigation_item 0x7f0b0022
 int layout design_bottom_sheet_dialog 0x7f0b0023

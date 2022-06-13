@@ -4871,9 +4871,9 @@ public final class R {
     public static final int abc_tooltip=0x7f0b001b;
     public static final int activity_main=0x7f0b001c;
     public static final int adddance=0x7f0b001d;
-    public static final int couplescoresbreakdown=0x7f0b001e;
-    public static final int couplescoresbreakdowndetails=0x7f0b001f;
-    public static final int couplesscoresbreakdownpage=0x7f0b0020;
+    public static final int couplescoresbreakdowndetails=0x7f0b001e;
+    public static final int couplescoresbreakdownpage=0x7f0b001f;
+    public static final int couplesscoresbreakdown=0x7f0b0020;
     public static final int dancesoverview=0x7f0b0021;
     public static final int design_bottom_navigation_item=0x7f0b0022;
     public static final int design_bottom_sheet_dialog=0x7f0b0023;

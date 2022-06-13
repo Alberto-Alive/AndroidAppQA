@@ -30,7 +30,7 @@ namespace StrictlyStats
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            SetContentView(Resource.Layout.CouplesScoresBreakdownPage);
+            SetContentView(Resource.Layout.CouplesScoresBreakdown);
 
             //Reference variables to relative objects on CouplesScoresBreakdownPage layout.
             coupleName = FindViewById<TextView>(Resource.Id.coupleName);

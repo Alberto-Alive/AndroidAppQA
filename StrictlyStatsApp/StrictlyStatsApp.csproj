@@ -182,7 +182,7 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\CoupleScoresBreakdown.axml">
+    <AndroidResource Include="Resources\layout\CoupleScoresBreakdownPage.axml">
       <Generator>MSBuild:UpdateGeneratedFiles</Generator>
       <SubType>Designer</SubType>
     </AndroidResource>
@@ -215,7 +215,7 @@
     <AndroidResource Include="Resources\layout\AddDance.axml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\CouplesScoresBreakdownPage.xml" />
+    <AndroidResource Include="Resources\layout\CouplesScoresBreakdown.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

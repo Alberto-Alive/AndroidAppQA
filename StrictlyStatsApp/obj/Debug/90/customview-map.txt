@@ -5,6 +5,7 @@ background;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
 Button;obj\Debug\90\res\layout\activity_main.xml
 Button;obj\Debug\90\res\layout\adddance.xml
 Button;obj\Debug\90\res\layout\couplescoresbreakdown.xml
+Button;obj\Debug\90\res\layout\couplescoresbreakdownpage.xml
 Button;obj\Debug\90\res\layout\dancesoverview.xml
 Button;obj\Debug\90\res\layout\enterscores.xml
 Button;obj\Debug\90\res\layout\instructions.xml
@@ -27,6 +28,8 @@ LinearLayout;obj\Debug\90\res\layout\activity_main.xml
 LinearLayout;obj\Debug\90\res\layout\adddance.xml
 LinearLayout;obj\Debug\90\res\layout\couplescoresbreakdown.xml
 LinearLayout;obj\Debug\90\res\layout\couplescoresbreakdowndetails.xml
+LinearLayout;obj\Debug\90\res\layout\couplescoresbreakdownpage.xml
+LinearLayout;obj\Debug\90\res\layout\couplesscoresbreakdown.xml
 LinearLayout;obj\Debug\90\res\layout\couplesscoresbreakdownpage.xml
 LinearLayout;obj\Debug\90\res\layout\dancesoverview.xml
 LinearLayout;obj\Debug\90\res\layout\enterscores.xml
@@ -43,6 +46,8 @@ LinearLayout;obj\Debug\90\res\layout\viewdance.xml
 LinearLayout;obj\Debug\90\res\layout\winner.xml
 ListView;obj\Debug\90\res\layout\couplescoresbreakdown.xml
 ListView;obj\Debug\90\res\layout\couplescoresbreakdowndetails.xml
+ListView;obj\Debug\90\res\layout\couplescoresbreakdownpage.xml
+ListView;obj\Debug\90\res\layout\couplesscoresbreakdown.xml
 ListView;obj\Debug\90\res\layout\couplesscoresbreakdownpage.xml
 ListView;obj\Debug\90\res\layout\dancesoverview.xml
 ListView;obj\Debug\90\res\layout\instructions.xml
@@ -64,6 +69,8 @@ TextView;obj\Debug\90\res\layout\activity_main.xml
 TextView;obj\Debug\90\res\layout\adddance.xml
 TextView;obj\Debug\90\res\layout\couplescoresbreakdown.xml
 TextView;obj\Debug\90\res\layout\couplescoresbreakdowndetails.xml
+TextView;obj\Debug\90\res\layout\couplescoresbreakdownpage.xml
+TextView;obj\Debug\90\res\layout\couplesscoresbreakdown.xml
 TextView;obj\Debug\90\res\layout\couplesscoresbreakdownpage.xml
 TextView;obj\Debug\90\res\layout\dancesoverview.xml
 TextView;obj\Debug\90\res\layout\enterscores.xml
