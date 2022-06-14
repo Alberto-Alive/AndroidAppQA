@@ -34,7 +34,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/rankingsButton" />
-    //Alberto added couple score breakdown
     <Button 
         android:text="Couple Score Breakdown"
         android:layout_width="match_parent"

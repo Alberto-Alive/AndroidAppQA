@@ -1,1 +1,1 @@
-<resources><color name="colorPrimary">#2c3e50</color><color name="colorPrimaryDark">#1B3147</color><color name="colorAccent">#3498db</color></resources>
+<resources><color name="colorPrimary">#2c3e50</color><color name="colorPrimaryDark">#1B3147</color><color name="colorAccent">#3498db</color><color name="colorSelection">#11FFFF</color><color name="colorDetails">#ccffff</color><color name="colorSubTitle">#0C084B</color><color name="colorBackgroundTitle">#E1E1E1</color></resources>
