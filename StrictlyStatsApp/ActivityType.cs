@@ -13,7 +13,7 @@ using Android.Widget;
 namespace StrictlyStats
 {
     enum ActivityType
-    {
+    {   CoupleScoresBreakdown,
         EnterScores,
         Rankings,
         VoteOff

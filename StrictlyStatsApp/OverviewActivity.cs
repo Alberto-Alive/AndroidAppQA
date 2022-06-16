@@ -34,9 +34,9 @@ namespace StrictlyStats
        
         private void CouplesButton_Click(object sender, System.EventArgs e)
         {
-            /*Intent coupleScoreBreakdownIntent = new Intent(this, typeof(CoupleScoresBreakdownActivity));
+            Intent couplesOverviewIntent = new Intent(this, typeof(CouplesOverviewActivity));
 
-            StartActivity(coupleScoreBreakdownIntent);*/
+            StartActivity(couplesOverviewIntent);
         }
 
         private void DancesButton_Click(object sender, System.EventArgs e)

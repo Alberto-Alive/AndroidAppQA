@@ -67,8 +67,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ActivityType.cs" />
+    <Compile Include="EditCoupleActivity.cs" />
     <Compile Include="AddDanceActivity.cs" />
     <Compile Include="CoupleScoresBreakdownActivity.cs" />
+    <Compile Include="CouplesOverviewActivity.cs" />
+    <Compile Include="CouplesOverviewAdapter.cs" />
     <Compile Include="DancesOverviewAdapter.cs" />
     <Compile Include="DancesOverviewActivity.cs" />
     <Compile Include="CoupleScoresBreakdownActivitybckp.cs" />
@@ -216,6 +219,18 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\CouplesScoresBreakdown.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\CouplesOverview.axml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\EditCouple.axml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
