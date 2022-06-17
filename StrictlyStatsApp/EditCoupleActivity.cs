@@ -32,10 +32,12 @@ namespace StrictlyStats
 
             SetContentView(Resource.Layout.EditCouple);
 
+            votedOff_check = FindViewById<CheckBox>(Resource.Id.votedOff_check);
             int coupleID = Intent.GetIntExtra("CoupleID", 0);
             if (coupleID > 0)
             {
                 couple = uow.Couples.GetById(coupleID);
+                votedOff_check.Checked = true;
             }
 
             editCFName = FindViewById<EditText>(Resource.Id.editCFName);
@@ -45,7 +47,6 @@ namespace StrictlyStats
 
             weekNumberSpinner = FindViewById<Spinner>(Resource.Id.weekNumberSpinner);
             editVotedOffWeekNumber = FindViewById<EditText>(Resource.Id.editVotedOffWeekNumber);
-            votedOff_check = FindViewById<CheckBox>(Resource.Id.votedOff_check);
             if (votedOff_check.Checked)
             {
                 editVotedOffWeekNumber.Enabled = true;
@@ -88,11 +89,16 @@ namespace StrictlyStats
             votedOff_check = FindViewById<CheckBox>(Resource.Id.votedOff_check);
 
             votedOff_check.Click += (o, e) => {
-                if (votedOff_check.Checked)
+                if (votedOff_check.Checked && couple.VotedOffWeekNumber == null)
                 {
                     Toast.MakeText(this, "Please insert the week number when couple was voted off!", ToastLength.Short).Show();
                     editVotedOffWeekNumber.Enabled = true;
                     editVotedOffWeekNumber.Text = "";
+                }
+                else if (votedOff_check.Checked && couple.VotedOffWeekNumber != null)
+                {
+                    Toast.MakeText(this, "Please insert the week number when couple was voted off!", ToastLength.Short).Show();
+                    editVotedOffWeekNumber.Enabled = true;
                 }
                 else
                 {
@@ -161,26 +167,26 @@ namespace StrictlyStats
             if (editPFName.Length() == 0)
             {
                 editPFName.RequestFocus();
-                editPFName.SetError("Email is required", null);
+                editPFName.SetError("This field is required", null);
                 return false;
             }
 
             if (editPLName.Length() == 0)
             {
                 editPLName.RequestFocus();
-                editPLName.SetError("Password is required", null);
+                editPLName.SetError("This field is required", null);
                 return false;
             }
             if (weekNumberSpinner == null)
             {
                 weekNumberSpinner.RequestFocus();
-                ((TextView)weekNumberSpinner.GetChildAt(0)).SetError("Message", null);
+                ((TextView)weekNumberSpinner.GetChildAt(0)).SetError("This field is required", null);
                 return false;
             }
             else if (votedOff_check.Checked && editVotedOffWeekNumber.Length() == 0)
             {
                 editVotedOffWeekNumber.RequestFocus();
-                editVotedOffWeekNumber.SetError("Password must be minimum 8 characters", null);
+                editVotedOffWeekNumber.SetError("This field is required", null);
                 return false;
             }
 

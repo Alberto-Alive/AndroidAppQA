@@ -5,4 +5,16 @@
 	<string name="title_select_couple">Select a couple from the list:</string>
 	<string name="couple_details">More details:</string>
 	<string name="action_add_new_couple">Add new couple</string>
+	<string name="first_name">First Name</string>
+	<string name="last_name">Last Name</string>
+	<string name="week_number">Week Number</string>
+	<string name="cancel">Cancel</string>
+	<string name="save">Save</string>
+	<string name="check_if_couple_was_voted_off">Check if couple was voted off</string>
+	<string name="voted_off_on_week_number">Voted off on week number:</string>
+	<string name="celebrity_star_rating">Celebrity star rating:</string>
+	<string name="professional_last_name">Professional last name</string>
+	<string name="professional_first_name">Professional first name</string>
+	<string name="celebrity_first_name">Celebrity first name</string>
+	<string name="celebrity_last_name">Celebrity last name</string>
 </resources>

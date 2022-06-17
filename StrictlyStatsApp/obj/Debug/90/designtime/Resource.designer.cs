@@ -4324,52 +4324,88 @@ namespace StrictlyStats
 			public const int bottom_sheet_behavior = 2131623980;
 			
 			// aapt resource value: 0x7F0E002D
-			public const int character_counter_content_description = 2131623981;
+			public const int cancel = 2131623981;
 			
 			// aapt resource value: 0x7F0E002E
-			public const int character_counter_pattern = 2131623982;
+			public const int celebrity_first_name = 2131623982;
 			
 			// aapt resource value: 0x7F0E002F
-			public const int couple_details = 2131623983;
+			public const int celebrity_last_name = 2131623983;
 			
 			// aapt resource value: 0x7F0E0030
-			public const int fab_transformation_scrim_behavior = 2131623984;
+			public const int celebrity_star_rating = 2131623984;
 			
 			// aapt resource value: 0x7F0E0031
-			public const int fab_transformation_sheet_behavior = 2131623985;
+			public const int character_counter_content_description = 2131623985;
 			
 			// aapt resource value: 0x7F0E0032
-			public const int hello = 2131623986;
+			public const int character_counter_pattern = 2131623986;
 			
 			// aapt resource value: 0x7F0E0033
-			public const int hide_bottom_view_on_scroll_behavior = 2131623987;
+			public const int check_if_couple_was_voted_off = 2131623987;
 			
 			// aapt resource value: 0x7F0E0034
-			public const int mtrl_chip_close_icon_content_description = 2131623988;
+			public const int couple_details = 2131623988;
 			
 			// aapt resource value: 0x7F0E0035
-			public const int password_toggle_content_description = 2131623989;
+			public const int fab_transformation_scrim_behavior = 2131623989;
 			
 			// aapt resource value: 0x7F0E0036
-			public const int path_password_eye = 2131623990;
+			public const int fab_transformation_sheet_behavior = 2131623990;
 			
 			// aapt resource value: 0x7F0E0037
-			public const int path_password_eye_mask_strike_through = 2131623991;
+			public const int first_name = 2131623991;
 			
 			// aapt resource value: 0x7F0E0038
-			public const int path_password_eye_mask_visible = 2131623992;
+			public const int hello = 2131623992;
 			
 			// aapt resource value: 0x7F0E0039
-			public const int path_password_strike_through = 2131623993;
+			public const int hide_bottom_view_on_scroll_behavior = 2131623993;
 			
 			// aapt resource value: 0x7F0E003A
-			public const int search_menu_title = 2131623994;
+			public const int last_name = 2131623994;
 			
 			// aapt resource value: 0x7F0E003B
-			public const int status_bar_notification_info_overflow = 2131623995;
+			public const int mtrl_chip_close_icon_content_description = 2131623995;
 			
 			// aapt resource value: 0x7F0E003C
-			public const int title_select_couple = 2131623996;
+			public const int password_toggle_content_description = 2131623996;
+			
+			// aapt resource value: 0x7F0E003D
+			public const int path_password_eye = 2131623997;
+			
+			// aapt resource value: 0x7F0E003E
+			public const int path_password_eye_mask_strike_through = 2131623998;
+			
+			// aapt resource value: 0x7F0E003F
+			public const int path_password_eye_mask_visible = 2131623999;
+			
+			// aapt resource value: 0x7F0E0040
+			public const int path_password_strike_through = 2131624000;
+			
+			// aapt resource value: 0x7F0E0041
+			public const int professional_first_name = 2131624001;
+			
+			// aapt resource value: 0x7F0E0042
+			public const int professional_last_name = 2131624002;
+			
+			// aapt resource value: 0x7F0E0043
+			public const int save = 2131624003;
+			
+			// aapt resource value: 0x7F0E0044
+			public const int search_menu_title = 2131624004;
+			
+			// aapt resource value: 0x7F0E0045
+			public const int status_bar_notification_info_overflow = 2131624005;
+			
+			// aapt resource value: 0x7F0E0046
+			public const int title_select_couple = 2131624006;
+			
+			// aapt resource value: 0x7F0E0047
+			public const int voted_off_on_week_number = 2131624007;
+			
+			// aapt resource value: 0x7F0E0048
+			public const int week_number = 2131624008;
 			
 			static String()
 			{

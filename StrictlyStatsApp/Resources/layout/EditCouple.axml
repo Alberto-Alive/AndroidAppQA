@@ -6,7 +6,7 @@
     app:counterEnabled="true"
     app:counterMaxLength="10"
     <TextView
-        android:text="Celebrity first name"
+        android:text="@string/celebrity_first_name"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
@@ -14,9 +14,10 @@
         android:id="@+id/editCFName"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:hint="@string/first_name"
         android:inputType="text" />
      <TextView
-        android:text="Celebrity last name"
+        android:text="@string/celebrity_last_name"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
@@ -24,10 +25,10 @@
         android:id="@+id/editCLName"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:hint="First Name"
+        android:hint="@string/last_name"
         android:inputType="text" />
     <TextView
-        android:text="Professional first name"
+        android:text="@string/professional_first_name"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
@@ -35,9 +36,10 @@
         android:id="@+id/editPFName"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:hint="@string/first_name"
         android:inputType="text" />
      <TextView
-        android:text="Professional last name"
+        android:text="@string/professional_last_name"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
@@ -45,9 +47,10 @@
         android:id="@+id/editPLName"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:hint="@string/last_name"
         android:inputType="text" /> 
     <TextView
-        android:text="Celebrity star rating:"
+        android:text="@string/celebrity_star_rating"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
@@ -60,9 +63,9 @@
     <CheckBox android:id="@+id/votedOff_check"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Check if couple was voted off" />
+        android:text="@string/check_if_couple_was_voted_off" />
     <TextView
-        android:text="Voted off on week number:"
+        android:text="@string/voted_off_on_week_number"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
@@ -70,14 +73,15 @@
         android:id="@+id/editVotedOffWeekNumber"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:hint="@string/week_number"
         android:inputType="number" />
     <Button
-        android:text="Save"
+        android:text="@string/save"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnSaveCouple" />
     <Button
-        android:text="Cancel"
+        android:text="@string/cancel"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnCancelSaveCouple" />
