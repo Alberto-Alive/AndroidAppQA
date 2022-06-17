@@ -24,6 +24,7 @@
         android:id="@+id/editCLName"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:hint="First Name"
         android:inputType="text" />
     <TextView
         android:text="Professional first name"

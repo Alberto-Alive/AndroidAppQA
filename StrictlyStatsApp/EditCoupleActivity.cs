@@ -18,18 +18,14 @@ namespace StrictlyStats
     public class EditCoupleActivity : AppCompatActivity
     {
         IStrictlyStatsUOW uow = Global.UOW;
-        Button btnSaveCouple;
-        Button btnCancelSaveCouple;
+        Button btnSaveCouple, btnCancelSaveCouple;
         Spinner weekNumberSpinner;
-        EditText editCFName;
-        EditText editCLName;
-        EditText editPFName;
-        EditText editPLName;
-        EditText editVotedOffWeekNumber;
+        EditText editCFName, editCLName, editPFName, editPLName, editVotedOffWeekNumber;
         CheckBox votedOff_check;
         String voteOffNullOrNumber;
         Couple couple = new Couple();
-       
+        Boolean areAllFieldsValid = false;
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -106,8 +102,13 @@ namespace StrictlyStats
                 }
             };
         }
+
         private void BtnSaveCouple_Click()
         {
+            areAllFieldsValid = BtnValidateFields_Click();
+            if (areAllFieldsValid)
+            {
+
             couple.CelebrityFirstName = editCFName.Text;
             couple.CelebrityLastName = editCLName.Text;
             couple.ProfessionalFirstName = editPFName.Text;
@@ -116,7 +117,10 @@ namespace StrictlyStats
             int position = weekNumberSpinner.SelectedItemPosition;
             couple.CelebrityStarRating = Convert.ToInt32(weekNumberSpinner.GetItemAtPosition(position));
 
-            couple.VotedOffWeekNumber = Convert.ToInt32(editVotedOffWeekNumber.Text);
+            if (!votedOff_check.Checked)
+                couple.VotedOffWeekNumber = null;
+            else
+                couple.VotedOffWeekNumber = Convert.ToInt32(editVotedOffWeekNumber.Text);
 
             var dlgAlert = (new Android.App.AlertDialog.Builder(this)).Create();
             dlgAlert.SetMessage("Please confirm saving the following dance to database: " + couple.ToString());
@@ -136,6 +140,52 @@ namespace StrictlyStats
                 Finish();
             });
             dlgAlert.Show();
+            }
+        }
+        private bool BtnValidateFields_Click()
+        {
+            if (editCFName.Length() == 0)
+            {
+                editCFName.RequestFocus();
+                editCFName.SetError("This field is required", null);
+                return false;
+            }
+
+            if (editCLName.Length() == 0)
+            {
+                editCLName.RequestFocus();
+                editCLName.SetError("This field is required", null);
+                return false;
+            }
+
+            if (editPFName.Length() == 0)
+            {
+                editPFName.RequestFocus();
+                editPFName.SetError("Email is required", null);
+                return false;
+            }
+
+            if (editPLName.Length() == 0)
+            {
+                editPLName.RequestFocus();
+                editPLName.SetError("Password is required", null);
+                return false;
+            }
+            if (weekNumberSpinner == null)
+            {
+                weekNumberSpinner.RequestFocus();
+                ((TextView)weekNumberSpinner.GetChildAt(0)).SetError("Message", null);
+                return false;
+            }
+            else if (votedOff_check.Checked && editVotedOffWeekNumber.Length() == 0)
+            {
+                editVotedOffWeekNumber.RequestFocus();
+                editVotedOffWeekNumber.SetError("Password must be minimum 8 characters", null);
+                return false;
+            }
+
+            // after all validation return true.
+            return true;
         }
 
         private void btnCancelSaveCouple_Click()
