@@ -22,99 +22,86 @@ namespace StrictlyStats
         Spinner weekNumberSpinner;
         EditText editCFName, editCLName, editPFName, editPLName, editVotedOffWeekNumber;
         CheckBox votedOff_check;
-        String voteOffNullOrNumber;
         Couple couple = new Couple();
         Boolean areAllFieldsValid = false;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-
             SetContentView(Resource.Layout.EditCouple);
 
-            votedOff_check = FindViewById<CheckBox>(Resource.Id.votedOff_check);
+            //Get CoupleID of the couple selected from the list, otherwise set CoupleID = 0.
             int coupleID = Intent.GetIntExtra("CoupleID", 0);
             if (coupleID > 0)
             {
                 couple = uow.Couples.GetById(coupleID);
-                votedOff_check.Checked = true;
             }
 
+            //Reference variables to relative objects on EditCouple layout.
             editCFName = FindViewById<EditText>(Resource.Id.editCFName);
             editCLName = FindViewById<EditText>(Resource.Id.editCLName);
             editPFName = FindViewById<EditText>(Resource.Id.editPFName);
             editPLName = FindViewById<EditText>(Resource.Id.editPLName);
-
             weekNumberSpinner = FindViewById<Spinner>(Resource.Id.weekNumberSpinner);
+            votedOff_check = FindViewById<CheckBox>(Resource.Id.votedOff_check);
             editVotedOffWeekNumber = FindViewById<EditText>(Resource.Id.editVotedOffWeekNumber);
-            if (votedOff_check.Checked)
-            {
-                editVotedOffWeekNumber.Enabled = true;
-            }
-            else
-            {
-                editVotedOffWeekNumber.Enabled = false;
 
-            }
-
+            //Set the text value of objects in EditCouple layout to the values of the couple object retrieved from the database.
             editCFName.Text = couple.CelebrityFirstName;
             editCLName.Text = couple.CelebrityLastName;
             editPFName.Text = couple.ProfessionalFirstName;
             editPLName.Text = couple.ProfessionalLastName;
+            
+            //Set and populate the spinner for the celebrity star rating.
+            int[] items = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            ArrayAdapter adapter = new ArrayAdapter(this, Android.Resource.Layout.SimpleSpinnerDropDownItem, items);
+            weekNumberSpinner.Adapter = adapter;
+            weekNumberSpinner.SetSelection(Convert.ToInt32(couple.CelebrityStarRating) -1);
 
-            if(couple.VotedOffWeekNumber == null)
+            //Set checkbox initial status.
+            //UPDATE action (check for null or number => if null checkbox is checked and vote off week number field is disabled);
+            //INSERT action (initial state assumed checked = couple to be added is still in competition)
+            if (couple.VotedOffWeekNumber != null)
             {
-                voteOffNullOrNumber = "Not voted off yet";
+                editVotedOffWeekNumber.Text = couple.VotedOffWeekNumber.ToString();
             }
             else
             {
-                voteOffNullOrNumber = couple.VotedOffWeekNumber.ToString();
+                votedOff_check.Checked = true;
+                editVotedOffWeekNumber.Enabled = false;
             }
-            editVotedOffWeekNumber.Text = voteOffNullOrNumber;
 
-            int[] items = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            //Handle checkbox actions
+            votedOff_check.Click += (o, e) => {
+                if (votedOff_check.Checked)
+                {
+                    Toast.MakeText(this, "This couple is still competing!", ToastLength.Short).Show();
+                    editVotedOffWeekNumber.Enabled = false;
+                }
+                else
+                {
+                    Toast.MakeText(this, "Vote couple off the competition!", ToastLength.Short).Show();
+                    editVotedOffWeekNumber.Enabled = true;
+                    editVotedOffWeekNumber.RequestFocus();
+                    editVotedOffWeekNumber.Text = couple.VotedOffWeekNumber.ToString();
+                }
+            };
 
-            ArrayAdapter adapter = new ArrayAdapter(this, Android.Resource.Layout.SimpleSpinnerDropDownItem, items);
-            weekNumberSpinner.Adapter = adapter;
-
-            weekNumberSpinner.SetSelection(Convert.ToInt32(couple.CelebrityStarRating) -1);
-
+            //Trigger actions from Save and Cancel buttons
             btnSaveCouple = FindViewById<Button>(Resource.Id.btnSaveCouple);
             btnSaveCouple.Click += (sender, e) => { BtnSaveCouple_Click(); };
 
             btnCancelSaveCouple = FindViewById<Button>(Resource.Id.btnCancelSaveCouple);
-            btnCancelSaveCouple.Click += (sender, e) =>  { btnCancelSaveCouple_Click(); };
-
-
-            votedOff_check = FindViewById<CheckBox>(Resource.Id.votedOff_check);
-
-            votedOff_check.Click += (o, e) => {
-                if (votedOff_check.Checked && couple.VotedOffWeekNumber == null)
-                {
-                    Toast.MakeText(this, "Please insert the week number when couple was voted off!", ToastLength.Short).Show();
-                    editVotedOffWeekNumber.Enabled = true;
-                    editVotedOffWeekNumber.Text = "";
-                }
-                else if (votedOff_check.Checked && couple.VotedOffWeekNumber != null)
-                {
-                    Toast.MakeText(this, "Please insert the week number when couple was voted off!", ToastLength.Short).Show();
-                    editVotedOffWeekNumber.Enabled = true;
-                }
-                else
-                {
-                    Toast.MakeText(this, "Couple will be saved as still in the competition!", ToastLength.Short).Show();
-                    editVotedOffWeekNumber.Enabled = false;
-                    editVotedOffWeekNumber.Text = voteOffNullOrNumber;
-                }
-            };
+            btnCancelSaveCouple.Click += (sender, e) => { btnCancelSaveCouple_Click(); };
         }
 
         private void BtnSaveCouple_Click()
         {
-            areAllFieldsValid = BtnValidateFields_Click();
+            //Validate fields before atempting database operations
+            areAllFieldsValid = ValidateFields();
             if (areAllFieldsValid)
             {
-
+            //Create couple object using user inputed values
             couple.CelebrityFirstName = editCFName.Text;
             couple.CelebrityLastName = editCLName.Text;
             couple.ProfessionalFirstName = editPFName.Text;
@@ -123,16 +110,17 @@ namespace StrictlyStats
             int position = weekNumberSpinner.SelectedItemPosition;
             couple.CelebrityStarRating = Convert.ToInt32(weekNumberSpinner.GetItemAtPosition(position));
 
-            if (!votedOff_check.Checked)
+            if (votedOff_check.Checked)
                 couple.VotedOffWeekNumber = null;
             else
                 couple.VotedOffWeekNumber = Convert.ToInt32(editVotedOffWeekNumber.Text);
 
             var dlgAlert = (new Android.App.AlertDialog.Builder(this)).Create();
-            dlgAlert.SetMessage("Please confirm saving the following dance to database: " + couple.ToString());
-            dlgAlert.SetTitle("Save dance?");
+            dlgAlert.SetMessage("Please confirm saving the following couplee to database: " + couple.ToString());
+            dlgAlert.SetTitle("Save Couple?");
             dlgAlert.SetButton("OK", (c, ev) =>
             {
+                //Perform update or insert operation by checking if we receive a couple.CoupleID
                 if (couple.CoupleID > 0)
                 {
                     uow.Couples.Update(couple);
@@ -148,7 +136,9 @@ namespace StrictlyStats
             dlgAlert.Show();
             }
         }
-        private bool BtnValidateFields_Click()
+
+        //Validator for all fields.
+        private bool ValidateFields()
         {
             if (editCFName.Length() == 0)
             {
@@ -183,14 +173,14 @@ namespace StrictlyStats
                 ((TextView)weekNumberSpinner.GetChildAt(0)).SetError("This field is required", null);
                 return false;
             }
-            else if (votedOff_check.Checked && editVotedOffWeekNumber.Length() == 0)
+            else if (!votedOff_check.Checked && editVotedOffWeekNumber.Length() == 0)
             {
                 editVotedOffWeekNumber.RequestFocus();
                 editVotedOffWeekNumber.SetError("This field is required", null);
                 return false;
             }
 
-            // after all validation return true.
+            //After all fields are validated return true.
             return true;
         }
 

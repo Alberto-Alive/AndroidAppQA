@@ -63,7 +63,7 @@
     <CheckBox android:id="@+id/votedOff_check"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/check_if_couple_was_voted_off" />
+        android:text="@string/vote_off_check" />
     <TextView
         android:text="@string/voted_off_on_week_number"
         android:textAppearance="?android:attr/textAppearanceLarge"
