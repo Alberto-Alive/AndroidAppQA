@@ -4,12 +4,12 @@ using Android.Content.Res;
 using Android.OS;
 using Android.Runtime;
 using Android.Support.V7.App;
+using System.Collections.Generic;
 using Android.Views;
 using Android.Widget;
 using StrictlyStatsDataLayer;
 using StrictlyStatsDataLayer.Models;
 using System;
-using System.Collections.Generic;
 using System.Windows;
 
 namespace StrictlyStats
@@ -23,6 +23,7 @@ namespace StrictlyStats
         EditText editCFName, editCLName, editPFName, editPLName, editVotedOffWeekNumber;
         CheckBox votedOff_check;
         Couple couple = new Couple();
+        List<Couple> couples;
         Boolean areAllFieldsValid = false;
 
         protected override void OnCreate(Bundle savedInstanceState)
@@ -128,10 +129,11 @@ namespace StrictlyStats
                 {
                     uow.Couples.Insert(couple);
                 }
+                Intent intent = new Intent(this, typeof(CouplesOverviewActivity));
                 Finish();
+                StartActivity(intent);
             });
             dlgAlert.SetButton2("CANCEL", (c, ev) => {
-                Finish();
             });
             dlgAlert.Show();
             }
@@ -186,7 +188,9 @@ namespace StrictlyStats
 
         private void btnCancelSaveCouple_Click()
         {
+            Intent intent = new Intent(this, typeof(CouplesOverviewActivity));
             Finish();
+            StartActivity(intent);
         }
 
     }
