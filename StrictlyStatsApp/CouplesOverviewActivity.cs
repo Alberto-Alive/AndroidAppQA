@@ -15,7 +15,7 @@ using StrictlyStatsDataLayer.Models;
 
 namespace StrictlyStats
 {
-    [Activity(Label = "Dances overview", Theme = "@style/AppTheme")]
+    [Activity(Label = "Couples overview", Theme = "@style/AppTheme")]
     public class CouplesOverviewActivity : AppCompatActivity
     {
         IStrictlyStatsUOW uow = Global.UOW;

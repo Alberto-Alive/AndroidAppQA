@@ -12,7 +12,7 @@
     <activity android:label="Edit Couple" android:theme="@style/AppTheme" android:name="crc64614377a9225db125.EditCoupleActivity" />
     <activity android:label="Add Dance" android:theme="@style/AppTheme" android:name="crc64614377a9225db125.AddDanceActivity" />
     <activity android:label="Couple scores breakdown" android:theme="@style/AppTheme" android:name="crc64614377a9225db125.CoupleScoresBreakdownActivity" />
-    <activity android:label="Dances overview" android:theme="@style/AppTheme" android:name="crc64614377a9225db125.CouplesOverviewActivity" />
+    <activity android:label="Couples overview" android:theme="@style/AppTheme" android:name="crc64614377a9225db125.CouplesOverviewActivity" />
     <activity android:label="Dances overview" android:theme="@style/AppTheme" android:name="crc64614377a9225db125.DancesOverviewActivity" />
     <activity android:label="Home" android:name="crc64614377a9225db125.CoupleScoresBreakdownActivitybckp" />
     <activity android:label="Couple scores breakdown details" android:theme="@style/AppTheme" android:name="crc64614377a9225db125.CoupleScoresBreakdownDetailsActivity" />
