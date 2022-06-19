@@ -12,6 +12,7 @@
         android:text="Add new dance"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/colorSelection"
         android:id="@+id/btnAddNewDance"
         android:clickable="true" />
     <ListView

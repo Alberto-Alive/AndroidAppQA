@@ -7,6 +7,7 @@
         android:text="@string/action_add_new_couple"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/colorSave"
         android:id="@+id/btnAddNewCouple"
         android:clickable="true" />
      <TextView

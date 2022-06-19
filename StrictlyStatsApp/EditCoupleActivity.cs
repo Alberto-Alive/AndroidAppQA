@@ -20,10 +20,10 @@ namespace StrictlyStats
         IStrictlyStatsUOW uow = Global.UOW;
         Button btnSaveCouple, btnCancelSaveCouple;
         Spinner weekNumberSpinner;
+        TextView coupleTitle;
         EditText editCFName, editCLName, editPFName, editPLName, editVotedOffWeekNumber;
         CheckBox votedOff_check;
         Couple couple = new Couple();
-        List<Couple> couples;
         Boolean areAllFieldsValid = false;
 
         protected override void OnCreate(Bundle savedInstanceState)
@@ -31,11 +31,13 @@ namespace StrictlyStats
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.EditCouple);
 
+            coupleTitle = FindViewById<TextView>(Resource.Id.coupleTitle);
             //Get CoupleID of the couple selected from the list, otherwise set CoupleID = 0.
             int coupleID = Intent.GetIntExtra("CoupleID", 0);
             if (coupleID > 0)
             {
                 couple = uow.Couples.GetById(coupleID);
+                coupleTitle.Text = couple.ToString();
             }
 
             //Reference variables to relative objects on EditCouple layout.
@@ -137,6 +139,14 @@ namespace StrictlyStats
             });
             dlgAlert.Show();
             }
+        }
+
+        //Override back button behaviour to send back on the CouplesOverviewActivity
+        public override void OnBackPressed()
+        {
+            Intent intent = new Intent(this, typeof(CouplesOverviewActivity));
+            Finish();
+            StartActivity(intent);
         }
 
         //Validator for all fields.

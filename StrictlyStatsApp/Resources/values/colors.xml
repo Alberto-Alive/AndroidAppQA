@@ -7,4 +7,6 @@
 	<color name="colorDetails">#ccffff</color>
 	<color name="colorSubTitle">#0C084B</color>
 	<color name="colorBackgroundTitle">#E1E1E1</color>
+	<color name="colorCancel">#E70000</color>
+	<color name="colorSave">#004DFF</color>
 </resources>

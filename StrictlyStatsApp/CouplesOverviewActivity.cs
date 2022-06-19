@@ -48,6 +48,7 @@ namespace StrictlyStats
         {
             Intent intent = new Intent(this, typeof(EditCoupleActivity));
             intent.PutExtra("CoupleID", couples[e.Position].CoupleID);
+            Finish();
             StartActivity(intent);
         }
 
