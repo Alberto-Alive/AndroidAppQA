@@ -61,7 +61,10 @@ namespace StrictlyStats
             lstVwCoupleScores.Adapter = new CoupleScoresBreakdownDetailsAdapter(this, scores);
 
             //Calculate and display the average of the scores for the selected couple
-            avgTextView.Text = ($"Score average: {((Decimal)scores.Sum<Score>(s => s.Grade) / scores.Count):0.00}");
+            if (scores.Count != 0)
+                avgTextView.Text = ($"Score average: {((Decimal)scores.Sum<Score>(s => s.Grade) / scores.Count):0.00}");
+            else
+                avgTextView.Text = "No scores available for this couple.";
 
         }
 
