@@ -123,7 +123,7 @@ namespace StrictlyStats
             dlgAlert.SetTitle("Save Couple?");
             dlgAlert.SetButton("OK", (c, ev) =>
             {
-                //Perform update or insert operation by checking if we receive a couple.CoupleID
+                //Perform update or insert operation by checking if we receive a couple.CoupleID.
                 if (couple.CoupleID > 0)
                 {
                     uow.Couples.Update(couple);
@@ -141,7 +141,7 @@ namespace StrictlyStats
             }
         }
 
-        //Override back button behaviour to send back on the CouplesOverviewActivity
+        //Override back button behaviour to send back on the CouplesOverviewActivity.
         public override void OnBackPressed()
         {
             Intent intent = new Intent(this, typeof(CouplesOverviewActivity));
