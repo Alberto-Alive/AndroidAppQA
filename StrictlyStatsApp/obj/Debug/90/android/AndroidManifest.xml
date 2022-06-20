@@ -17,6 +17,7 @@
     <activity android:label="Home" android:name="crc64614377a9225db125.CoupleScoresBreakdownActivitybckp" />
     <activity android:label="Couple scores breakdown details" android:theme="@style/AppTheme" android:name="crc64614377a9225db125.CoupleScoresBreakdownDetailsActivity" />
     <activity android:label="Instruction detail" android:theme="@style/AppTheme" android:name="crc64614377a9225db125.InstructionDetailActivity" />
+    <activity android:label="Instructions With Fragments" android:theme="@style/AppTheme" android:name="crc64614377a9225db125.InstructionsWithFragments" />
     <activity android:label="Instructions" android:theme="@style/AppTheme" android:name="crc64614377a9225db125.Instructions" />
     <activity android:label="Overview" android:theme="@style/AppTheme" android:name="crc64614377a9225db125.OverviewActivity" />
     <activity android:label="@string/app_name" android:theme="@style/AppTheme" android:name="crc64614377a9225db125.MainActivity" android:exported="true">

@@ -10,6 +10,7 @@ Button;obj\Debug\90\res\layout\dancesoverview.xml
 Button;obj\Debug\90\res\layout\editcouple.xml
 Button;obj\Debug\90\res\layout\enterscores.xml
 Button;obj\Debug\90\res\layout\instructions.xml
+Button;obj\Debug\90\res\layout\instructionswithfragments.xml
 Button;obj\Debug\90\res\layout\overview.xml
 Button;obj\Debug\90\res\layout\rankedcouples.xml
 Button;obj\Debug\90\res\layout\results.xml
@@ -18,6 +19,7 @@ Button;obj\Debug\90\res\layout\selectweeknumber.xml
 Button;obj\Debug\90\res\layout\statsfortheweek.xml
 Button;obj\Debug\90\res\layout\viewdance.xml
 Button;obj\Debug\90\res\layout\winner.xml
+Button;obj\Debug\90\res\layout-land\instructionswithfragments.xml
 CheckBox;obj\Debug\90\res\layout\editcouple.xml
 color;obj\Debug\90\res\values\colors.xml
 color;obj\Debug\90\res\values\ic_launcher_background.xml
@@ -26,6 +28,8 @@ EditText;obj\Debug\90\res\layout\editcouple.xml
 EditText;obj\Debug\90\res\layout\enterscores.xml
 foreground;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
 foreground;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
+fragment;obj\Debug\90\res\layout\instructionswithfragments.xml
+fragment;obj\Debug\90\res\layout-land\instructionswithfragments.xml
 item;obj\Debug\90\res\values\styles.xml
 LinearLayout;obj\Debug\90\res\layout\activity_main.xml
 LinearLayout;obj\Debug\90\res\layout\adddance.xml
@@ -38,6 +42,9 @@ LinearLayout;obj\Debug\90\res\layout\editcouple.xml
 LinearLayout;obj\Debug\90\res\layout\enterscores.xml
 LinearLayout;obj\Debug\90\res\layout\instructiondetail.xml
 LinearLayout;obj\Debug\90\res\layout\instructions.xml
+LinearLayout;obj\Debug\90\res\layout\instructionsdescriptionfragment.xml
+LinearLayout;obj\Debug\90\res\layout\instructionstitlefragment.xml
+LinearLayout;obj\Debug\90\res\layout\instructionswithfragments.xml
 LinearLayout;obj\Debug\90\res\layout\overview.xml
 LinearLayout;obj\Debug\90\res\layout\rankedcouples.xml
 LinearLayout;obj\Debug\90\res\layout\results.xml
@@ -46,12 +53,14 @@ LinearLayout;obj\Debug\90\res\layout\selectweeknumber.xml
 LinearLayout;obj\Debug\90\res\layout\statsfortheweek.xml
 LinearLayout;obj\Debug\90\res\layout\viewdance.xml
 LinearLayout;obj\Debug\90\res\layout\winner.xml
+LinearLayout;obj\Debug\90\res\layout-land\instructionswithfragments.xml
 ListView;obj\Debug\90\res\layout\couplescoresbreakdowndetails.xml
 ListView;obj\Debug\90\res\layout\couplescoresbreakdownpage.xml
 ListView;obj\Debug\90\res\layout\couplesoverview.xml
 ListView;obj\Debug\90\res\layout\couplesscoresbreakdown.xml
 ListView;obj\Debug\90\res\layout\dancesoverview.xml
 ListView;obj\Debug\90\res\layout\instructions.xml
+ListView;obj\Debug\90\res\layout\instructionstitlefragment.xml
 ListView;obj\Debug\90\res\layout\rankedcouples.xml
 resources;D:\AbcUni\GitHubPull\AndroidAppQA\StrictlyStatsApp\obj\Debug\90\lp\1\jl\res\values\strings.xml
 resources;obj\Debug\90\res\values\colors.xml
@@ -63,6 +72,10 @@ Spinner;obj\Debug\90\res\layout\editcouple.xml
 Spinner;obj\Debug\90\res\layout\enterscores.xml
 Spinner;obj\Debug\90\res\layout\selectcouple.xml
 Spinner;obj\Debug\90\res\layout\selectweeknumber.xml
+StrictlyStatsApp.InstructionsDescriptionFragment;obj\Debug\90\res\layout\instructionswithfragments.xml
+StrictlyStatsApp.InstructionsDescriptionFragment;obj\Debug\90\res\layout-land\instructionswithfragments.xml
+StrictlyStatsApp.InstructionsTitleFragment;obj\Debug\90\res\layout\instructionswithfragments.xml
+StrictlyStatsApp.InstructionsTitleFragment;obj\Debug\90\res\layout-land\instructionswithfragments.xml
 string;D:\AbcUni\GitHubPull\AndroidAppQA\StrictlyStatsApp\obj\Debug\90\lp\1\jl\res\values\strings.xml
 string;obj\Debug\90\res\values\strings.xml
 style;obj\Debug\90\res\values\styles.xml
@@ -77,6 +90,8 @@ TextView;obj\Debug\90\res\layout\editcouple.xml
 TextView;obj\Debug\90\res\layout\enterscores.xml
 TextView;obj\Debug\90\res\layout\instructiondetail.xml
 TextView;obj\Debug\90\res\layout\instructions.xml
+TextView;obj\Debug\90\res\layout\instructionsdescriptionfragment.xml
+TextView;obj\Debug\90\res\layout\instructionswithfragments.xml
 TextView;obj\Debug\90\res\layout\overview.xml
 TextView;obj\Debug\90\res\layout\rankedcouples.xml
 TextView;obj\Debug\90\res\layout\results.xml
@@ -85,3 +100,4 @@ TextView;obj\Debug\90\res\layout\selectweeknumber.xml
 TextView;obj\Debug\90\res\layout\statsfortheweek.xml
 TextView;obj\Debug\90\res\layout\viewdance.xml
 TextView;obj\Debug\90\res\layout\winner.xml
+TextView;obj\Debug\90\res\layout-land\instructionswithfragments.xml

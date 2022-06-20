@@ -4,7 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <TextView
-        android:text="Instructions!"
+        android:text="@string/instructions_list"
+        android:background="@color/colorBackgroundTitle"
+		android:textColor="@color/colorSave"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -15,7 +17,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/lstVwInstructions" />
-
     <Button
         android:text="Home"
         android:layout_width="match_parent"

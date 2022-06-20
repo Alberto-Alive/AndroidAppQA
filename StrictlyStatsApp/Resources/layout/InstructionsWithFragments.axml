@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+    <TextView
+		android:text="@string/instructions_list"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textColor="@color/colorSave"
+		android:background="@color/colorBackgroundTitle"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/firstTitle" />
+		<LinearLayout
+			android:orientation="vertical"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/linearLayout1">
+			<fragment class="StrictlyStatsApp.InstructionsTitleFragment"
+				android:id="@+id/InstructionsTitleFragment"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent" 
+				/>
+		<TextView
+		android:text="@string/instruction_detail"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textColor="@color/colorSave"
+		android:background="@color/colorBackgroundTitle"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/secondTitle" />
+			<fragment class="StrictlyStatsApp.InstructionsDescriptionFragment"
+				android:id="@+id/InstructionsDescriptionFragment"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				/>
+		</LinearLayout>
+</LinearLayout>

@@ -16,6 +16,7 @@ namespace StrictlyStats
         Button voteOffButton;
         Button overviewButton;
         Button coupleScoreBreakdownButton;
+        Button instructionsWithFragmentsButton;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -39,6 +40,9 @@ namespace StrictlyStats
 
             Button instructionsButton = FindViewById<Button>(Resource.Id.instructionsButton);
             instructionsButton.Click += InstructionsButton_Click;
+            
+            instructionsWithFragmentsButton = FindViewById<Button>(Resource.Id.instructionsWithFragmentsButton);
+            instructionsWithFragmentsButton.Click += instructionsWithFragmentsButton_Click;
 
             enterScoresButton = FindViewById<Button>(Resource.Id.enterScoresButton);
             enterScoresButton.Click += EnterScoresButton_Click;
@@ -83,6 +87,12 @@ namespace StrictlyStats
             Intent instructionIntent = new Intent(this, typeof(Instructions));
 
             StartActivity(instructionIntent);
+        }
+        private void instructionsWithFragmentsButton_Click(object sender, System.EventArgs e)
+        {
+            Intent intent = new Intent(this, typeof(InstructionsWithFragments));
+
+            StartActivity(intent);
         }
 
         private void EnterScoresButton_Click(object sender, System.EventArgs e)

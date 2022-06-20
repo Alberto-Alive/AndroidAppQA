@@ -25,6 +25,11 @@
         android:layout_height="wrap_content"
         android:id="@+id/instructionsButton" />
     <Button
+        android:text="Instructions With Fragments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/instructionsWithFragmentsButton" />
+    <Button
         android:text="Enter Scores"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
