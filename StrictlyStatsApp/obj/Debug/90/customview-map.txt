@@ -23,6 +23,10 @@ Button;obj\Debug\90\res\layout-land\instructionswithfragments.xml
 CheckBox;obj\Debug\90\res\layout\editcouple.xml
 color;obj\Debug\90\res\values\colors.xml
 color;obj\Debug\90\res\values\ic_launcher_background.xml
+crc647cfce12650543351.InstructionsDescriptionFragment;obj\Debug\90\res\layout\instructionswithfragments.xml
+crc647cfce12650543351.InstructionsDescriptionFragment;obj\Debug\90\res\layout-land\instructionswithfragments.xml
+crc647cfce12650543351.InstructionsTitleFragment;obj\Debug\90\res\layout\instructionswithfragments.xml
+crc647cfce12650543351.InstructionsTitleFragment;obj\Debug\90\res\layout-land\instructionswithfragments.xml
 EditText;obj\Debug\90\res\layout\adddance.xml
 EditText;obj\Debug\90\res\layout\editcouple.xml
 EditText;obj\Debug\90\res\layout\enterscores.xml
