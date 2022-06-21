@@ -12,11 +12,11 @@
 	<string name="save">Save</string>
 	<string name="vote_off_check">Check if couple is still in the competition</string>
 	<string name="voted_off_on_week_number">Voted off on week number:</string>
-	<string name="celebrity_star_rating">Celebrity star rating:</string>
-	<string name="professional_last_name">Professional last name</string>
-	<string name="professional_first_name">Professional first name</string>
-	<string name="celebrity_first_name">Celebrity first name</string>
-	<string name="celebrity_last_name">Celebrity last name</string>
+	<string name="celebrity_star_rating">Celebrity star rating:*</string>
+	<string name="professional_last_name">Professional last name:*</string>
+	<string name="professional_first_name">Professional first name:*</string>
+	<string name="celebrity_first_name">Celebrity first name:*</string>
+	<string name="celebrity_last_name">Celebrity last name:*</string>
 	<string name="instructions_list">Instructions list:</string>
 	<string name="instruction_detail">Instruction detail:</string>
 </resources>

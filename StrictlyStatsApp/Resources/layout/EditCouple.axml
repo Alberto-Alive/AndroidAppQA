@@ -22,6 +22,7 @@
         android:id="@+id/editCFName"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:drawableRight="@android:drawable/ic_menu_edit"
         android:hint="@string/first_name"
         android:inputType="text" />
      <TextView
@@ -33,6 +34,7 @@
         android:id="@+id/editCLName"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:drawableRight="@android:drawable/ic_menu_edit"
         android:hint="@string/last_name"
         android:inputType="text" />
     <TextView
@@ -44,6 +46,7 @@
         android:id="@+id/editPFName"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:drawableRight="@android:drawable/ic_menu_edit"
         android:hint="@string/first_name"
         android:inputType="text" />
      <TextView
@@ -55,6 +58,7 @@
         android:id="@+id/editPLName"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:drawableRight="@android:drawable/ic_menu_edit"
         android:hint="@string/last_name"
         android:inputType="text" /> 
     <TextView
@@ -81,6 +85,7 @@
         android:id="@+id/editVotedOffWeekNumber"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:drawableRight="@android:drawable/ic_menu_edit"
         android:hint="@string/week_number"
         android:inputType="number" />
     <Button
