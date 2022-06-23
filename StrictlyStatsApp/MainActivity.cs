@@ -42,7 +42,7 @@ namespace StrictlyStats
             instructionsButton.Click += InstructionsButton_Click;
             
             instructionsWithFragmentsButton = FindViewById<Button>(Resource.Id.instructionsWithFragmentsButton);
-            instructionsWithFragmentsButton.Click += instructionsWithFragmentsButton_Click;
+            instructionsWithFragmentsButton.Click += InstructionsWithFragmentsButton_Click;
 
             enterScoresButton = FindViewById<Button>(Resource.Id.enterScoresButton);
             enterScoresButton.Click += EnterScoresButton_Click;
@@ -88,7 +88,7 @@ namespace StrictlyStats
 
             StartActivity(instructionIntent);
         }
-        private void instructionsWithFragmentsButton_Click(object sender, System.EventArgs e)
+        private void InstructionsWithFragmentsButton_Click(object sender, System.EventArgs e)
         {
             Intent intent = new Intent(this, typeof(InstructionsWithFragments));
 
