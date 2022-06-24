@@ -1,5 +1,4 @@
 SQLitePCLRaw.lib.e_sqlite3.android.dll
-StrictlyStatsDataLayer.dll
 Xamarin.Android.Arch.Core.Common.dll
 Xamarin.Android.Arch.Core.Runtime.dll
 Xamarin.Android.Arch.Lifecycle.Common.dll
@@ -34,3 +33,4 @@ Xamarin.Android.Support.v7.RecyclerView.dll
 Xamarin.Android.Support.Vector.Drawable.dll
 Xamarin.Android.Support.VersionedParcelable.dll
 Xamarin.Android.Support.ViewPager.dll
+StrictlyStatsDataLayer.dll

@@ -67,7 +67,6 @@ D:\AbcUni\GitHubPull\AndroidAppQA\StrictlyStatsDataLayer\obj\Debug\90\adb.props
 D:\AbcUni\GitHubPull\AndroidAppQA\StrictlyStatsDataLayer\obj\Debug\90\StrictlyStatsDataLayer.csproj.AssemblyReference.cache
 D:\AbcUni\GitHubPull\AndroidAppQA\StrictlyStatsDataLayer\obj\Debug\90\stamp\_BuildLibraryImportsCache.stamp
 D:\AbcUni\GitHubPull\AndroidAppQA\StrictlyStatsDataLayer\obj\Debug\90\res.flag
-D:\AbcUni\GitHubPull\AndroidAppQA\StrictlyStatsDataLayer\obj\Debug\90\R.txt
 D:\AbcUni\GitHubPull\AndroidAppQA\StrictlyStatsDataLayer\obj\Debug\90\R.cs.flag
 D:\AbcUni\GitHubPull\AndroidAppQA\StrictlyStatsDataLayer\obj\Debug\90\__AndroidLibraryProjects__.zip
 D:\AbcUni\GitHubPull\AndroidAppQA\StrictlyStatsDataLayer\obj\Debug\90\StrictlyStatsDataLayer.csproj.CoreCompileInputs.cache
@@ -78,6 +77,7 @@ D:\AbcUni\GitHubPull\AndroidAppQA\StrictlyStatsDataLayer\obj\Debug\90\android\bi
 D:\AbcUni\GitHubPull\AndroidAppQA\StrictlyStatsDataLayer\obj\Debug\90\android\bin\StrictlyStatsDataLayer.StrictlyStatsDataLayer.aab
 D:\AbcUni\GitHubPull\AndroidAppQA\StrictlyStatsDataLayer\obj\Debug\90\android\bin\StrictlyStatsDataLayer.StrictlyStatsDataLayer.apks
 D:\AbcUni\GitHubPull\AndroidAppQA\StrictlyStatsDataLayer\obj\Debug\90\res\values\strings.xml
+D:\AbcUni\GitHubPull\AndroidAppQA\StrictlyStatsDataLayer\obj\Debug\90\R.txt
 D:\AbcUni\GitHubPull\AndroidAppQA\StrictlyStatsDataLayer\obj\Debug\90\uploadflags.txt
 D:\AbcUni\GitHubPull\AndroidAppQA\StrictlyStatsDataLayer\obj\Debug\90\stamp\_CleanIntermediateIfNeeded.stamp
 D:\AbcUni\GitHubPull\AndroidAppQA\StrictlyStatsDataLayer\obj\Debug\90\stamp\_ConvertResourcesCases.stamp

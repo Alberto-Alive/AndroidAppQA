@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <TextView
-        android:text="Overview"
+        android:text="@string/overview"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -14,23 +14,23 @@
         android:textStyle="bold"
         android:textAlignment="center" />
     <TextView
-        android:text="Please select one of the below options"
+        android:text="@string/select_options_below"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/selectTextView" />
     <Button
-        android:text="Couples"
+        android:text="@string/couples"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/couplesButton" />
     <Button
-        android:text="Dances"
+        android:text="@string/dances"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/dancesButton" />
     <Button
-        android:text="Scores"
+        android:text="@string/scores"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/scoresButton" />

@@ -10,7 +10,6 @@ Button;obj\Debug\90\res\layout\dancesoverview.xml
 Button;obj\Debug\90\res\layout\editcouple.xml
 Button;obj\Debug\90\res\layout\enterscores.xml
 Button;obj\Debug\90\res\layout\instructions.xml
-Button;obj\Debug\90\res\layout\instructionswithfragments.xml
 Button;obj\Debug\90\res\layout\overview.xml
 Button;obj\Debug\90\res\layout\rankedcouples.xml
 Button;obj\Debug\90\res\layout\results.xml
@@ -19,14 +18,9 @@ Button;obj\Debug\90\res\layout\selectweeknumber.xml
 Button;obj\Debug\90\res\layout\statsfortheweek.xml
 Button;obj\Debug\90\res\layout\viewdance.xml
 Button;obj\Debug\90\res\layout\winner.xml
-Button;obj\Debug\90\res\layout-land\instructionswithfragments.xml
 CheckBox;obj\Debug\90\res\layout\editcouple.xml
 color;obj\Debug\90\res\values\colors.xml
 color;obj\Debug\90\res\values\ic_launcher_background.xml
-crc647cfce12650543351.InstructionsDescriptionFragment;obj\Debug\90\res\layout\instructionswithfragments.xml
-crc647cfce12650543351.InstructionsDescriptionFragment;obj\Debug\90\res\layout-land\instructionswithfragments.xml
-crc647cfce12650543351.InstructionsTitleFragment;obj\Debug\90\res\layout\instructionswithfragments.xml
-crc647cfce12650543351.InstructionsTitleFragment;obj\Debug\90\res\layout-land\instructionswithfragments.xml
 EditText;obj\Debug\90\res\layout\adddance.xml
 EditText;obj\Debug\90\res\layout\editcouple.xml
 EditText;obj\Debug\90\res\layout\enterscores.xml
@@ -66,7 +60,7 @@ ListView;obj\Debug\90\res\layout\dancesoverview.xml
 ListView;obj\Debug\90\res\layout\instructions.xml
 ListView;obj\Debug\90\res\layout\instructionstitlefragment.xml
 ListView;obj\Debug\90\res\layout\rankedcouples.xml
-resources;D:\AbcUni\GitHubPull\AndroidAppQA\StrictlyStatsApp\obj\Debug\90\lp\1\jl\res\values\strings.xml
+resources;D:\AbcUni\GitHubPull\AndroidAppQA\StrictlyStatsApp\obj\Debug\90\lp\35\jl\res\values\strings.xml
 resources;obj\Debug\90\res\values\colors.xml
 resources;obj\Debug\90\res\values\ic_launcher_background.xml
 resources;obj\Debug\90\res\values\strings.xml
@@ -80,7 +74,7 @@ StrictlyStatsApp.InstructionsDescriptionFragment;obj\Debug\90\res\layout\instruc
 StrictlyStatsApp.InstructionsDescriptionFragment;obj\Debug\90\res\layout-land\instructionswithfragments.xml
 StrictlyStatsApp.InstructionsTitleFragment;obj\Debug\90\res\layout\instructionswithfragments.xml
 StrictlyStatsApp.InstructionsTitleFragment;obj\Debug\90\res\layout-land\instructionswithfragments.xml
-string;D:\AbcUni\GitHubPull\AndroidAppQA\StrictlyStatsApp\obj\Debug\90\lp\1\jl\res\values\strings.xml
+string;D:\AbcUni\GitHubPull\AndroidAppQA\StrictlyStatsApp\obj\Debug\90\lp\35\jl\res\values\strings.xml
 string;obj\Debug\90\res\values\strings.xml
 style;obj\Debug\90\res\values\styles.xml
 TextView;obj\Debug\90\res\layout\activity_main.xml
