@@ -101,10 +101,12 @@ namespace StrictlyStats
                 }
             };
 
-            //Trigger actions from Save and Cancel buttons
+            //Trigger actions for the Save, Delete and Cancel buttons
             btnSaveCouple = FindViewById<Button>(Resource.Id.btnSaveCouple);
             btnSaveCouple.Click += (sender, e) => { BtnSaveCouple_Click(); };
 
+            btnDeleteCouple.Click += (sender, e) => { btnDeleteCouple_Click(); };
+            
             btnCancelSaveCouple = FindViewById<Button>(Resource.Id.btnCancelSaveCouple);
             btnCancelSaveCouple.Click += (sender, e) => { btnCancelSaveCouple_Click(); };
         }
@@ -150,6 +152,61 @@ namespace StrictlyStats
             });
             dlgAlert.Show();
             }
+        }
+        
+        //Delete couple action
+        private void btnDeleteCouple_Click()
+        {
+            var dlgAlert = (new Android.App.AlertDialog.Builder(this)).Create();
+            dlgAlert.SetMessage("This couple will be delete permanently: " + couple.ToString());
+            dlgAlert.SetTitle("Are you sure you want to delete this record?");
+            dlgAlert.SetButton("OK", (c, ev) =>
+            {
+                uow.Couples.Delete(couple);
+                Intent intent = new Intent(this, typeof(CouplesOverviewActivity));
+                Finish();
+                StartActivity(intent);
+            });
+            dlgAlert.SetButton2("CANCEL", (c, ev) => {
+            });
+            dlgAlert.Show();
+        }
+
+        //Cancel action
+        private void btnCancelSaveCouple_Click()
+        {
+            if(couple.CoupleID > 0)
+            {
+                var dlgAlert = (new Android.App.AlertDialog.Builder(this)).Create();
+                dlgAlert.SetMessage("Any changes made will not be applied to this record: " + couple.ToString());
+                dlgAlert.SetTitle("Are you sure you want to cancel?");
+                dlgAlert.SetButton("OK", (c, ev) =>
+                {
+                    Intent intent = new Intent(this, typeof(CouplesOverviewActivity));
+                    Finish();
+                    StartActivity(intent);
+                });
+                dlgAlert.SetButton2("CANCEL", (c, ev) => {
+                });
+                dlgAlert.Show();
+            }
+                
+            else
+            {
+                var dlgAlert = (new Android.App.AlertDialog.Builder(this)).Create();
+                dlgAlert.SetMessage("Any changes will be lost!");
+                dlgAlert.SetTitle("Are you sure you want to cancel?");
+                dlgAlert.SetButton("OK", (c, ev) =>
+                {
+                    Intent intent = new Intent(this, typeof(CouplesOverviewActivity));
+                    Finish();
+                    StartActivity(intent);
+                });
+                dlgAlert.SetButton2("CANCEL", (c, ev) => {
+                });
+                dlgAlert.Show();
+            }
+             
         }
 
         //Override back button behaviour to send back on the CouplesOverviewActivity.
@@ -205,42 +262,6 @@ namespace StrictlyStats
 
             //After all fields are validated return true.
             return true;
-        }
-
-        private void btnCancelSaveCouple_Click()
-        {
-            if(couple.CoupleID > 0)
-            {
-                var dlgAlert = (new Android.App.AlertDialog.Builder(this)).Create();
-                dlgAlert.SetMessage("Any changes made will not be applied to this record: " + couple.ToString());
-                dlgAlert.SetTitle("Are you sure you want to cancel?");
-                dlgAlert.SetButton("OK", (c, ev) =>
-                {
-                    Intent intent = new Intent(this, typeof(CouplesOverviewActivity));
-                    Finish();
-                    StartActivity(intent);
-                });
-                dlgAlert.SetButton2("CANCEL", (c, ev) => {
-                });
-                dlgAlert.Show();
-            }
-                
-            else
-            {
-                var dlgAlert = (new Android.App.AlertDialog.Builder(this)).Create();
-                dlgAlert.SetMessage("Any changes will be lost!");
-                dlgAlert.SetTitle("Are you sure you want to cancel?");
-                dlgAlert.SetButton("OK", (c, ev) =>
-                {
-                    Intent intent = new Intent(this, typeof(CouplesOverviewActivity));
-                    Finish();
-                    StartActivity(intent);
-                });
-                dlgAlert.SetButton2("CANCEL", (c, ev) => {
-                });
-                dlgAlert.Show();
-            }
-             
         }
     }
 
