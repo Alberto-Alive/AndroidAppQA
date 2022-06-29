@@ -10,6 +10,7 @@
 	<string name="week_number">Week Number</string>
 	<string name="cancel">Cancel</string>
 	<string name="save">Save</string>
+	<string name="delete">Delete</string>
 	<string name="vote_off_check">Check if couple is still in the competition</string>
 	<string name="voted_off_on_week_number">Voted off on week number:</string>
 	<string name="celebrity_star_rating">Celebrity star rating:*</string>

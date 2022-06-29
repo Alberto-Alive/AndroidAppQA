@@ -95,9 +95,15 @@
         android:background="@color/colorSave"
         android:id="@+id/btnSaveCouple" />
     <Button
+        android:text="@string/delete"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorDelete"
+        android:id="@+id/btnDeleteCouple" />
+    <Button
         android:text="@string/cancel"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorCancel"
+        android:background="@color/colorAccent"
         android:id="@+id/btnCancelSaveCouple" />
 </LinearLayout>

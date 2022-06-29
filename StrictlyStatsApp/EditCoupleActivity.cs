@@ -18,7 +18,7 @@ namespace StrictlyStats
     public class EditCoupleActivity : AppCompatActivity
     {
         IStrictlyStatsUOW uow = Global.UOW;
-        Button btnSaveCouple, btnCancelSaveCouple;
+        Button btnSaveCouple, btnDeleteCouple, btnCancelSaveCouple;
         Spinner weekNumberSpinner;
         TextView coupleTitle;
         EditText editCFName, editCLName, editPFName, editPLName, editVotedOffWeekNumber;
@@ -31,14 +31,25 @@ namespace StrictlyStats
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.EditCouple);
 
+            btnDeleteCouple = FindViewById<Button>(Resource.Id.btnDeleteCouple);
             coupleTitle = FindViewById<TextView>(Resource.Id.coupleTitle);
+
             //Get CoupleID of the couple selected from the list, otherwise set CoupleID = 0.
+            //Set the page title to the name of the selected couple and display the delete button.
             int coupleID = Intent.GetIntExtra("CoupleID", 0);
             if (coupleID > 0)
             {
                 couple = uow.Couples.GetById(coupleID);
                 coupleTitle.Text = couple.ToString();
+                btnDeleteCouple.Visibility = ViewStates.Visible;
             }
+            else
+            {
+                btnDeleteCouple.Visibility = ViewStates.Gone;
+            }
+
+
+            //Hide/Show delete button depending on the page we are on.
 
             //Reference variables to relative objects on EditCouple layout.
             editCFName = FindViewById<EditText>(Resource.Id.editCFName);
