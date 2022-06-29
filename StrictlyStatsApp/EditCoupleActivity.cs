@@ -209,10 +209,39 @@ namespace StrictlyStats
 
         private void btnCancelSaveCouple_Click()
         {
-            Intent intent = new Intent(this, typeof(CouplesOverviewActivity));
-            Finish();
-            StartActivity(intent);
+            if(couple.CoupleID > 0)
+            {
+                var dlgAlert = (new Android.App.AlertDialog.Builder(this)).Create();
+                dlgAlert.SetMessage("Any changes made will not be applied to this record: " + couple.ToString());
+                dlgAlert.SetTitle("Are you sure you want to cancel?");
+                dlgAlert.SetButton("OK", (c, ev) =>
+                {
+                    Intent intent = new Intent(this, typeof(CouplesOverviewActivity));
+                    Finish();
+                    StartActivity(intent);
+                });
+                dlgAlert.SetButton2("CANCEL", (c, ev) => {
+                });
+                dlgAlert.Show();
+            }
+                
+            else
+            {
+                var dlgAlert = (new Android.App.AlertDialog.Builder(this)).Create();
+                dlgAlert.SetMessage("Any changes will be lost!");
+                dlgAlert.SetTitle("Are you sure you want to cancel?");
+                dlgAlert.SetButton("OK", (c, ev) =>
+                {
+                    Intent intent = new Intent(this, typeof(CouplesOverviewActivity));
+                    Finish();
+                    StartActivity(intent);
+                });
+                dlgAlert.SetButton2("CANCEL", (c, ev) => {
+                });
+                dlgAlert.Show();
+            }
+             
         }
-
     }
+
 }
