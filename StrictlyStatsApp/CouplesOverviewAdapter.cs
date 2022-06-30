@@ -37,7 +37,7 @@ namespace StrictlyStats
             if (view == null) // otherwise create a new one
                 view = context.LayoutInflater.Inflate(Android.Resource.Layout.TwoLineListItem, null);
             var item = GetItem(position);
-            view.FindViewById<TextView>(Android.Resource.Id.Text1).Text = item.ToString();
+            view.FindViewById<TextView>(Android.Resource.Id.Text1).Text = item.ToString().Truncate(50);
             if (item.VotedOffWeekNumber == null)
             {
                 votedOff = "Still in the competition";

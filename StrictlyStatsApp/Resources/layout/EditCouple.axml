@@ -24,6 +24,8 @@
         android:layout_height="wrap_content"
         android:drawableRight="@android:drawable/ic_menu_edit"
         android:hint="@string/first_name"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        android:maxLength="15"
         android:inputType="text" />
      <TextView
         android:text="@string/celebrity_last_name"
@@ -36,6 +38,8 @@
         android:layout_height="wrap_content"
         android:drawableRight="@android:drawable/ic_menu_edit"
         android:hint="@string/last_name"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        android:maxLength="15"
         android:inputType="text" />
     <TextView
         android:text="@string/professional_first_name"
@@ -48,6 +52,8 @@
         android:layout_height="wrap_content"
         android:drawableRight="@android:drawable/ic_menu_edit"
         android:hint="@string/first_name"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        android:maxLength="15"
         android:inputType="text" />
      <TextView
         android:text="@string/professional_last_name"
@@ -60,6 +66,8 @@
         android:layout_height="wrap_content"
         android:drawableRight="@android:drawable/ic_menu_edit"
         android:hint="@string/last_name"
+         android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        android:maxLength="15"
         android:inputType="text" /> 
     <TextView
         android:text="@string/celebrity_star_rating"

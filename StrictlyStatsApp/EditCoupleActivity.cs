@@ -41,7 +41,7 @@ namespace StrictlyStats
             {
                 couple = uow.Couples.GetById(coupleID);
                 var title = couple.ToString();
-                coupleTitle.Text = title.Truncate(40);
+                coupleTitle.Text = title.Truncate(31);
                 btnDeleteCouple.Visibility = ViewStates.Visible;
             }
             else
@@ -224,11 +224,23 @@ namespace StrictlyStats
                 editCFName.SetError("This field is required", null);
                 return false;
             }
+            else if(editCFName.Text.Contains(" "))
+            {
+                editCFName.RequestFocus();
+                editCFName.SetError("This field should contain one word only", null);
+                return false;
+            }
 
             if (editCLName.Length() == 0)
             {
                 editCLName.RequestFocus();
                 editCLName.SetError("This field is required", null);
+                return false;
+            }
+            else if (editCLName.Text.Contains(" "))
+            {
+                editCLName.RequestFocus();
+                editCLName.SetError("This field should contain one word only", null);
                 return false;
             }
 
@@ -238,11 +250,23 @@ namespace StrictlyStats
                 editPFName.SetError("This field is required", null);
                 return false;
             }
+            else if (editPFName.Text.Contains(" "))
+            {
+                editPFName.RequestFocus();
+                editPFName.SetError("This field should contain one word only", null);
+                return false;
+            }
 
             if (editPLName.Length() == 0)
             {
                 editPLName.RequestFocus();
                 editPLName.SetError("This field is required", null);
+                return false;
+            }
+            else if (editPLName.Text.Contains(" "))
+            {
+                editPLName.RequestFocus();
+                editPLName.SetError("This field should contain one word only", null);
                 return false;
             }
             if (weekNumberSpinner == null)
