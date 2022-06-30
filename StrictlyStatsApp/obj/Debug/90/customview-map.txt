@@ -60,7 +60,7 @@ ListView;obj\Debug\90\res\layout\dancesoverview.xml
 ListView;obj\Debug\90\res\layout\instructions.xml
 ListView;obj\Debug\90\res\layout\instructionstitlefragment.xml
 ListView;obj\Debug\90\res\layout\rankedcouples.xml
-resources;D:\AbcUni\GitHubPull\AndroidAppQA\StrictlyStatsApp\obj\Debug\90\lp\35\jl\res\values\strings.xml
+resources;D:\AbcUni\GitHubPull\AndroidAppQA\StrictlyStatsApp\obj\Debug\90\lp\1\jl\res\values\strings.xml
 resources;obj\Debug\90\res\values\colors.xml
 resources;obj\Debug\90\res\values\ic_launcher_background.xml
 resources;obj\Debug\90\res\values\strings.xml
@@ -74,7 +74,7 @@ StrictlyStatsApp.InstructionsDescriptionFragment;obj\Debug\90\res\layout\instruc
 StrictlyStatsApp.InstructionsDescriptionFragment;obj\Debug\90\res\layout-land\instructionswithfragments.xml
 StrictlyStatsApp.InstructionsTitleFragment;obj\Debug\90\res\layout\instructionswithfragments.xml
 StrictlyStatsApp.InstructionsTitleFragment;obj\Debug\90\res\layout-land\instructionswithfragments.xml
-string;D:\AbcUni\GitHubPull\AndroidAppQA\StrictlyStatsApp\obj\Debug\90\lp\35\jl\res\values\strings.xml
+string;D:\AbcUni\GitHubPull\AndroidAppQA\StrictlyStatsApp\obj\Debug\90\lp\1\jl\res\values\strings.xml
 string;obj\Debug\90\res\values\strings.xml
 style;obj\Debug\90\res\values\styles.xml
 TextView;obj\Debug\90\res\layout\activity_main.xml

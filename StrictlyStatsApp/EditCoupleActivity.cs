@@ -33,23 +33,21 @@ namespace StrictlyStats
 
             btnDeleteCouple = FindViewById<Button>(Resource.Id.btnDeleteCouple);
             coupleTitle = FindViewById<TextView>(Resource.Id.coupleTitle);
-
-            //Get CoupleID of the couple selected from the list, otherwise set CoupleID = 0.
-            //Set the page title to the name of the selected couple and display the delete button.
-            int coupleID = Intent.GetIntExtra("CoupleID", 0);
+        
+        //Get CoupleID of the couple selected from the list, otherwise set CoupleID = 0.
+        //Set the page title to the name of the selected couple and display the delete button.
+        int coupleID = Intent.GetIntExtra("CoupleID", 0);
             if (coupleID > 0)
             {
                 couple = uow.Couples.GetById(coupleID);
-                coupleTitle.Text = couple.ToString();
+                var title = couple.ToString();
+                coupleTitle.Text = title.Truncate(40);
                 btnDeleteCouple.Visibility = ViewStates.Visible;
             }
             else
             {
                 btnDeleteCouple.Visibility = ViewStates.Gone;
             }
-
-
-            //Hide/Show delete button depending on the page we are on.
 
             //Reference variables to relative objects on EditCouple layout.
             editCFName = FindViewById<EditText>(Resource.Id.editCFName);

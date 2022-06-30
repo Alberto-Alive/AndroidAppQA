@@ -4,31 +4,6 @@
   android:layout_height="match_parent">
 
   <TextView
-    android:text="@string/action_select_couple"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:textSize="24dp"
-    android:background="@color/colorBackgroundTitle"
-    android:id="@+id/textView1"/>
-
-  <LinearLayout
-    android:orientation="vertical"
-    android:layout_weight="1" 
-    android:minWidth="25px"
-    android:minHeight="25px"
-    android:layout_width="match_parent"
-    android:layout_height="fill_parent"
-    android:id="@+id/linearLayout2">
-    <ListView
-      android:minWidth="25px"
-      android:minHeight="25px"
-      android:layout_width="match_parent"
-      android:layout_height="match_parent"
-      android:listSelector="@color/colorSelection"
-      android:id="@+id/lstVwCouples" />
-  </LinearLayout>
-
-  <TextView
     android:text="@string/couple_details"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -63,6 +38,31 @@
       android:layout_height="wrap_content"
       android:textColor="@color/colorSubTitle"
       android:id="@+id/avgTextView" />
+  </LinearLayout>
+
+  <TextView
+    android:text="@string/action_select_couple"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="24dp"
+    android:background="@color/colorBackgroundTitle"
+    android:id="@+id/textView1"/>
+
+  <LinearLayout
+    android:orientation="vertical"
+    android:layout_weight="1" 
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/linearLayout2">
+    <ListView
+      android:minWidth="25px"
+      android:minHeight="25px"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:listSelector="@color/colorSelection"
+      android:id="@+id/lstVwCouples" />
   </LinearLayout>
 
 </LinearLayout>
