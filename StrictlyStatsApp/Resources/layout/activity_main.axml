@@ -23,35 +23,42 @@
         android:text="Instructions"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorAccent"
         android:id="@+id/instructionsButton" />
     <Button
         android:text="Instructions With Fragments"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorAccent"
         android:id="@+id/instructionsWithFragmentsButton" />
     <Button
         android:text="Enter Scores"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorAccent"
         android:id="@+id/enterScoresButton" />
     <Button
         android:text="Rankings"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorAccent"
         android:id="@+id/rankingsButton" />
     <Button 
         android:text="Couple Score Breakdown"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorAccent"
         android:id="@+id/coupleScoreBreakdownButton" />
     <Button
         android:text="Overview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorAccent"
         android:id="@+id/overviewButton" />
     <Button
         android:text="Vote Off"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorAccent"
         android:id="@+id/voteOffButton" />
 </LinearLayout>

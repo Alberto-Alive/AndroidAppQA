@@ -23,15 +23,18 @@
         android:text="@string/couples"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorAccent"
         android:id="@+id/couplesButton" />
     <Button
         android:text="@string/dances"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorAccent"
         android:id="@+id/dancesButton" />
     <Button
         android:text="@string/scores"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorAccent"
         android:id="@+id/scoresButton" />
 </LinearLayout>
