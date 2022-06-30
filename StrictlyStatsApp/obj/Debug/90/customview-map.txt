@@ -19,8 +19,10 @@ Button;obj\Debug\90\res\layout\statsfortheweek.xml
 Button;obj\Debug\90\res\layout\viewdance.xml
 Button;obj\Debug\90\res\layout\winner.xml
 CheckBox;obj\Debug\90\res\layout\editcouple.xml
+color;obj\Debug\90\res\drawable\android_button.xml
 color;obj\Debug\90\res\values\colors.xml
 color;obj\Debug\90\res\values\ic_launcher_background.xml
+corners;obj\Debug\90\res\drawable\android_normal.xml
 EditText;obj\Debug\90\res\layout\adddance.xml
 EditText;obj\Debug\90\res\layout\editcouple.xml
 EditText;obj\Debug\90\res\layout\enterscores.xml
@@ -28,6 +30,11 @@ foreground;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
 foreground;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
 fragment;obj\Debug\90\res\layout\instructionswithfragments.xml
 fragment;obj\Debug\90\res\layout-land\instructionswithfragments.xml
+gradient;obj\Debug\90\res\drawable\android_normal.xml
+inset;obj\Debug\90\res\drawable\android_focused.xml
+inset;obj\Debug\90\res\drawable\android_normal.xml
+inset;obj\Debug\90\res\drawable\android_pressed.xml
+item;obj\Debug\90\res\drawable\android_button.xml
 item;obj\Debug\90\res\values\styles.xml
 LinearLayout;obj\Debug\90\res\layout\activity_main.xml
 LinearLayout;obj\Debug\90\res\layout\adddance.xml
@@ -60,11 +67,14 @@ ListView;obj\Debug\90\res\layout\dancesoverview.xml
 ListView;obj\Debug\90\res\layout\instructions.xml
 ListView;obj\Debug\90\res\layout\instructionstitlefragment.xml
 ListView;obj\Debug\90\res\layout\rankedcouples.xml
+padding;obj\Debug\90\res\drawable\android_normal.xml
 resources;D:\AbcUni\GitHubPull\AndroidAppQA\StrictlyStatsApp\obj\Debug\90\lp\1\jl\res\values\strings.xml
 resources;obj\Debug\90\res\values\colors.xml
 resources;obj\Debug\90\res\values\ic_launcher_background.xml
 resources;obj\Debug\90\res\values\strings.xml
 resources;obj\Debug\90\res\values\styles.xml
+selector;obj\Debug\90\res\drawable\android_button.xml
+shape;obj\Debug\90\res\drawable\android_normal.xml
 Spinner;obj\Debug\90\res\layout\adddance.xml
 Spinner;obj\Debug\90\res\layout\editcouple.xml
 Spinner;obj\Debug\90\res\layout\enterscores.xml

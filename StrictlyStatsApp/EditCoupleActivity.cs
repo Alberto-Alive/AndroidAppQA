@@ -41,7 +41,7 @@ namespace StrictlyStats
             {
                 couple = uow.Couples.GetById(coupleID);
                 var title = couple.ToString();
-                coupleTitle.Text = title.Truncate(31);
+                coupleTitle.Text = title.Truncate(40);
                 btnDeleteCouple.Visibility = ViewStates.Visible;
             }
             else

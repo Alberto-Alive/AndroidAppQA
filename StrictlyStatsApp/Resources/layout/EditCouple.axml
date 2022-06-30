@@ -100,18 +100,19 @@
         android:text="@string/save"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorSave"
+        android:backgroundTint="@color/colorSave"
         android:id="@+id/btnSaveCouple" />
     <Button
         android:text="@string/delete"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorDelete"
+        android:backgroundTint="@color/colorDelete"
         android:id="@+id/btnDeleteCouple" />
     <Button
         android:text="@string/cancel"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorAccent"
+        android:padding="10dp"
+        android:backgroundTint="@color/colorAccent"
         android:id="@+id/btnCancelSaveCouple" />
 </LinearLayout>
