@@ -21,12 +21,16 @@ namespace StrictlyStats
     {
         IStrictlyStatsUOW uow = Global.UOW;
         List<Couple> couples;
-        
+        int _select = 0;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.CouplesScoresBreakdown);
 
+            if (savedInstanceState != null)
+            {
+               _select = savedInstanceState.GetInt("click_count", 0);
+            }
             ListView lstVwCouples = FindViewById<ListView>(Resource.Id.lstVwCouples);
             lstVwCouples.ChoiceMode = ChoiceMode.Single;
 
@@ -34,15 +38,21 @@ namespace StrictlyStats
 
             lstVwCouples.Adapter = new CoupleScoresBreakdownAdapter(this, couples);
             lstVwCouples.ItemClick += LstVwCouples_ItemClick;
-            lstVwCouples.SetSelection(0);
+            lstVwCouples.SetSelection(_select);
             LstVwCouples_ItemClick(null, new AdapterView.ItemClickEventArgs(null, null, 0, 0));
+        }
+
+        protected override void OnSaveInstanceState(Bundle outState)
+        {
+            outState.PutInt("click_count", _select);
+            base.OnSaveInstanceState(outState);
         }
         private void LstVwCouples_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
         {
             TextView avgTextView = FindViewById<TextView>(Resource.Id.avgTextView);
             IList<Score> scores = uow.Scores.GetScoresForCoupleWithDance(couples[e.Position].CoupleID);
             ListView lstVwCoupleScores = FindViewById<ListView>(Resource.Id.lstVwCoupleScores);
-
+            _select = e.Position;
             lstVwCoupleScores.Adapter = new CoupleScoresBreakdownDetailsAdapter(this, scores);
 
             Couple couple = uow.Couples.GetById(couples[e.Position].CoupleID);

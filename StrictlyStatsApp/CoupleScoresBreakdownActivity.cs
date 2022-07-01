@@ -26,12 +26,15 @@ namespace StrictlyStats
         IList<Score> scores;
         ListView lstVwCoupleScores;
         ListView lstVwCouples;
-
+        int _select = 0;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.CouplesScoresBreakdown);
-
+            if (savedInstanceState != null)
+            {
+                _select = savedInstanceState.GetInt("click_count", 0);
+            }
             //Reference variables to relative objects on CouplesScoresBreakdownPage layout.
             coupleName = FindViewById<TextView>(Resource.Id.detailsTitle);
             avgTextView = FindViewById<TextView>(Resource.Id.avgTextView);
@@ -47,14 +50,21 @@ namespace StrictlyStats
 
             //Link click event to LstVwCouples_ItemClick method, set selection on lstVwCouples list to index '0' and send details about selected item 
             lstVwCouples.ItemClick += LstVwCouples_ItemClick;
-            lstVwCouples.SetSelection(0);
+            lstVwCouples.SetSelection(_select);
             LstVwCouples_ItemClick(null, new AdapterView.ItemClickEventArgs(null, null, 0, 0));
+        }
+        protected override void OnSaveInstanceState(Bundle outState)
+        {
+            outState.PutInt("click_count", _select);
+            base.OnSaveInstanceState(outState);
         }
         private void LstVwCouples_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
         {
             //Get and display the name of the selected couple
             Couple couple = uow.Couples.GetById(couples[e.Position].CoupleID);
             coupleName.Text = Resources.GetString(Resource.String.couple_details, couple.ToString()) ;
+
+            _select = e.Position;
 
             //Get and display a list of scores for the selected couple
             scores = uow.Scores.GetScoresForCoupleWithDance(couples[e.Position].CoupleID);

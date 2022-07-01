@@ -21,32 +21,46 @@ namespace StrictlyStats
         IStrictlyStatsUOW uow = Global.UOW;
         List<Instruction> instructions;
         Instruction instructionItem;
-
+        ListView titlesList;
+        int _select;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.InstructionsWithFragments);
-
-            ListView titlesList = FindViewById<ListView>(Resource.Id.titlesList);
+            
+            titlesList = FindViewById<ListView>(Resource.Id.titlesList);
             titlesList.ChoiceMode = ChoiceMode.Single;
 
             instructions = uow.Instructions.GetAll();
             titlesList.Adapter = new InstructionsAdapter(this, instructions);
 
             titlesList.ItemClick += titlesList_ItemClick;
-            titlesList.SetSelection(0);
-            titlesList_ItemClick(null, new AdapterView.ItemClickEventArgs(null, null, 0, 0));
-
+            if (savedInstanceState != null)
+            {
+                _select = savedInstanceState.GetInt("click_count", 0);
+                titlesList.SetSelection(_select);
+            }
+            else
+            {
+                _select = 0;
+                titlesList.SetSelection(_select);
+            }
+            titlesList_ItemClick(null, new AdapterView.ItemClickEventArgs(null, null, _select, 0));
         }
 
         private void titlesList_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
         {
-            TextView detailsTitle = FindViewById<TextView>(Resource.Id.detailsTitle);
+            _select = e.Position;
+            TextView detailsTitle = FindViewById<TextView>(Resource.Id.detailsMainTitle);
             TextView detailsText = FindViewById<TextView>(Resource.Id.detailsText);
             instructionItem = uow.Instructions.GetById(instructions[e.Position].InstructionID);
             detailsText.Text = instructionItem.InstructionDetail;
-            detailsTitle.Text = Resources.GetString(Resource.String.couple_details, instructionItem.InstructionHeading);
+            detailsTitle.Text = Resources.GetString(Resource.String.instruction_detail, instructionItem.InstructionHeading);
         }
-
+        protected override void OnSaveInstanceState(Bundle outState)
+        {
+            outState.PutInt("click_count", _select);
+            base.OnSaveInstanceState(outState);
+        }
     }
 }

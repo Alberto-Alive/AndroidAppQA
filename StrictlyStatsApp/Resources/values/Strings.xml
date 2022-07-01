@@ -19,7 +19,7 @@
 	<string name="celebrity_first_name">Celebrity first name:*</string>
 	<string name="celebrity_last_name">Celebrity last name:*</string>
 	<string name="instructions_list">Instructions list:</string>
-	<string name="instruction_detail">Instruction detail:</string>
+	<string name="instruction_detail">Instruction details: %1$s</string>
 	<string name="overview">Overview</string>
 	<string name="select_options_below">Please select one of the below options</string>
 	<string name="couples">Couples</string>
