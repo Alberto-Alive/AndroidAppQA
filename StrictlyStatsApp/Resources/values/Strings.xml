@@ -3,7 +3,7 @@
     <string name="action_settings">Settings</string>
 	<string name="action_select_couple">Select a couple:</string>
 	<string name="title_select_couple">Select a couple from the list:</string>
-	<string name="couple_details">More details:</string>
+	<string name="couple_details">More details: %1$s</string>
 	<string name="action_add_new_couple">Add new couple</string>
 	<string name="first_name">First Name</string>
 	<string name="last_name">Last Name</string>

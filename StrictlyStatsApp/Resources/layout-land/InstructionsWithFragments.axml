@@ -25,7 +25,7 @@
 					android:background="@color/colorBackgroundTitle"
 					android:layout_width="match_parent"
 					android:layout_height="wrap_content"
-					android:id="@+id/firstTitle" />
+					android:id="@+id/detailsTitle" />
 				<fragment class="StrictlyStatsApp.InstructionsTitleFragment"
 					android:id="@+id/InstructionsTitleFragment"
 					android:layout_width="fill_parent"
@@ -48,7 +48,7 @@
 					android:textColor="@color/colorSave"
 					android:layout_width="match_parent"
 					android:layout_height="wrap_content"
-					android:id="@+id/secondTitle" />
+					android:id="@+id/listTitle" />
 				<fragment class="StrictlyStatsApp.InstructionsDescriptionFragment"
 					android:id="@+id/InstructionsDescriptionFragment"
 					android:layout_width="fill_parent"

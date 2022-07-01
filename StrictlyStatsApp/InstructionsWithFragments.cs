@@ -41,9 +41,11 @@ namespace StrictlyStats
 
         private void titlesList_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
         {
+            TextView detailsTitle = FindViewById<TextView>(Resource.Id.detailsTitle);
             TextView detailsText = FindViewById<TextView>(Resource.Id.detailsText);
             instructionItem = uow.Instructions.GetById(instructions[e.Position].InstructionID);
             detailsText.Text = instructionItem.InstructionDetail;
+            detailsTitle.Text = Resources.GetString(Resource.String.couple_details, instructionItem.InstructionHeading);
         }
 
     }

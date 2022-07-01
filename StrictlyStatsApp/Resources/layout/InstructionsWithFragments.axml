@@ -9,7 +9,7 @@
 		android:background="@color/colorBackgroundTitle"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:id="@+id/firstTitle" />
+		android:id="@+id/detailsTitle" />
 		<LinearLayout
 			android:orientation="vertical"
 			android:minWidth="25px"
@@ -29,7 +29,7 @@
 		android:background="@color/colorBackgroundTitle"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:id="@+id/secondTitle" />
+		android:id="@+id/listTitle" />
 			<fragment class="StrictlyStatsApp.InstructionsDescriptionFragment"
 				android:id="@+id/InstructionsDescriptionFragment"
 				android:layout_width="fill_parent"

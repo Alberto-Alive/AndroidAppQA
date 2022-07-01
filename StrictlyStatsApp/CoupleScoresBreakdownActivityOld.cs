@@ -39,7 +39,6 @@ namespace StrictlyStats
         }
         private void LstVwCouples_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
         {
-            TextView coupleName = FindViewById<TextView>(Resource.Id.coupleName);
             TextView avgTextView = FindViewById<TextView>(Resource.Id.avgTextView);
             IList<Score> scores = uow.Scores.GetScoresForCoupleWithDance(couples[e.Position].CoupleID);
             ListView lstVwCoupleScores = FindViewById<ListView>(Resource.Id.lstVwCoupleScores);
@@ -47,7 +46,6 @@ namespace StrictlyStats
             lstVwCoupleScores.Adapter = new CoupleScoresBreakdownDetailsAdapter(this, scores);
 
             Couple couple = uow.Couples.GetById(couples[e.Position].CoupleID);
-            coupleName.Text = couple.ToString();
             avgTextView.Text = ($"Score average: {((Decimal)scores.Sum<Score>(s => s.Grade) / scores.Count):0.00}");
 
         }

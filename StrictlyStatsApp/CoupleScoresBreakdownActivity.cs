@@ -33,7 +33,7 @@ namespace StrictlyStats
             SetContentView(Resource.Layout.CouplesScoresBreakdown);
 
             //Reference variables to relative objects on CouplesScoresBreakdownPage layout.
-            coupleName = FindViewById<TextView>(Resource.Id.coupleName);
+            coupleName = FindViewById<TextView>(Resource.Id.detailsTitle);
             avgTextView = FindViewById<TextView>(Resource.Id.avgTextView);
             lstVwCoupleScores = FindViewById<ListView>(Resource.Id.lstVwCoupleScores);
 
@@ -54,7 +54,7 @@ namespace StrictlyStats
         {
             //Get and display the name of the selected couple
             Couple couple = uow.Couples.GetById(couples[e.Position].CoupleID);
-            coupleName.Text = couple.ToString();
+            coupleName.Text = Resources.GetString(Resource.String.couple_details, couple.ToString()) ;
 
             //Get and display a list of scores for the selected couple
             scores = uow.Scores.GetScoresForCoupleWithDance(couples[e.Position].CoupleID);
